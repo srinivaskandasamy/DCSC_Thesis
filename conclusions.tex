@@ -1,0 +1,40 @@
+\chapter{Conclusions and Future work}  \label{chap::conclusion}
+
+\section{Summary}
+In this thesis, an impact-based approach to Simultaneous Localization and Mapping is presented for a rectilinear environment and implemented on a practical setup using Sphero robots. A new environment representation, called histogram map, is adopted to the SLAM problem which is suitable for the sensor used and operating environment. The robot trajectory is estimated using a probabilistic technique called particle filter and landmarks are estimated using low dimensional EKFs. A multiple robot scenario is used to reduce the exploration time to reduce the sparse nature of incoming measurements.
+
+The use of a particle filter is favoured due to the non-Gaussian robot pose distribution. The poor pose distribution was attributed to the nature of impact-based SLAM but has an useful advantage that no other SLAM solution can provide. The use of impact information with the landmarks gives the absolute location information of landmarks which makes the impact-based SLAM problem observable.  
+
+For the particle filter, a modified prediction step is adopted since the measurements arrive in a sparse fashion with a higher accuracy than the robot motion. This avoids degeneracy in the particles generated, and thereby improving the consistency of the estimate. The motion of the robot is modelled as a unicycle along with a Finite State Machine to model the effect of collisions. The motion model accounts for Markov assumption for computational efficiency. Similar assumptions hold for the incoming sparse measurements such as independence of a measurement on old states.
+
+The sparse measurements comprise of the collision information which is interpreted through the accelerometer data. The measurement is associated with an existing landmark on a per-particle basis using a $\chi^2$ acceptance test or Nearest Neighbour. This approach is found to be robust since associations are carried out per-particle. If an association is satisfied for an existing landmark, the corresponding landmark is updated using EKF, otherwise a new landmark is created. For histogram maps, a new histogram is associated for every new landmark. In addition to the collision information, the rectilinear world constraints such as orthogonality, equal corridor width provide good information on the resulting map of the environment. These constraints are incorporated as a geometric update through constrained estimation in EKF. In simple words, the constraints are incorporated for the new landmark as a zero-uncertainty measurement in EKF. Negative information is also incorporated into the algorithm for improving the accuracy of the output map. An adaptive resampling is used to remove erroneous hypotheses in the particle set, thereby improving the accuracy of the estimates and also ensuring particle diversity at the same time.
+
+The resulting algorithm in the worst case scales linearly with the number of landmarks. The spurious growth of point landmarks is eliminated using a suitable map representation for impact-based SLAM. SLAM using histogram maps is found to be very efficient in terms of number of landmarks and influencing the efficiency of data association and consistency of the solution. Additional geometric assumptions such as pruning of associations, geometric wall locations, etc.\ are exploited for improving the efficiency of the algorithm.   
+
+The developed SLAM algorithm is implemented on a practical setup using Sphero robots. An offline version of SLAM was accomplished under manual calibration since the Sphero suffered a severe internal slip after every collision. An online version of SLAM was accomplished only through head-on collisions. Results conclude that impact-based SLAM with minimal sensing information can be accomplished under usual rectilinear world assumptions.
+
+A tabled conclusion of the accomplished SLAM algorithm in the single and multiple robot scenario is shown in Table~\ref{results_table}.
+
+\begin{table}
+\centering
+\caption{Comparison Results}
+\label{results_table}
+\begin{tabular}{ccccc}
+\toprule
+Number of robots & Convergence & Consistency & Exploration time & Computational effort \\
+\midrule
+1 & Yes & Moderate & 107.18 sec. & $\mathcal{O}(MN)$ \\
+2 & Yes & High & 67 sec. & $\mathcal{O}(MN)$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Future work}
+In this section, recommendations for future work are listed out. Regarding the impact-based SLAM algorithm, following can lay some foundations for future work.
+\begin{enumerate}
+\item A consistent map estimation can be achieved by properly maintaining the structural correlations of the map and the effect of this inconsistency can be severely observed in more structured situations. The need for maintaining a joint covariance matrix can be studied in detail and suitable exploitations in the covariance structure can be found to improve the computational efficiency in such a case.
+\item The multiple robot SLAM problem can be converted to a distributed SLAM where each system state can influence the other after map merging. An optimal method for map fusion in particle filters is a great area to explore upon.
+\item The spatial information of the wall presence is indicated through a histogram in this thesis. The histogram representations can be a key ingredient for the planning aspects since the areas to be explored can be defined using the histogram information.  
+\end{enumerate}
+
+About the practical implementations, an interesting scope of work can be done. The SLAM code can be optimized to incorporate into the robot's memory such that the computations can be done onboard. Few works in the literature implemented an optimized SLAM algorithm which can be implemented onboard \cite{beevers2007mapping}, \cite{steux2010tinyslam}.

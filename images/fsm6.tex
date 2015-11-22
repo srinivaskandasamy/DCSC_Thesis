@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{20pt}%
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [red!50,fill=red!50] (21.2,-35.1) circle (3);
+\draw (21.2,-35.1) node {$s_i$};
+\draw [red!50,fill=red!50] (54,-35.1) circle (3);
+\draw (54,-35.1) node {$s_j$};
+\draw [green!30,fill=green!30] (47.8,-15.8) ellipse (10cm and 4cm);
+\draw (47.8,-15.8) node [left=30] {$\Omega_{ij}$};
+\draw [gray!30,fill=gray!30] (47.8,-15.8) circle (3);
+\draw (47.8,-15.8) node {$z_{ij}$};
+\draw [black,thick] (24.3,-35.1) -- (51,-35.1) node[midway,above=5]{$\hat{z}_{ij}$};
+\fill [black] (51,-35.1) -- (50.2,-34.6) -- (50.2,-35.6);
+\draw [black,dashed] (23.2,-32.8) -- (45.33,-17.51);
+\fill [black] (45.33,-17.51) -- (44.39,-17.55) -- (44.96,-18.37);
+\draw [black,dashed] (49.1,-18.6) -- (53.15,-32.22) node[midway,right=5]{$e_{ij}(s_i,s_j)$} ;
+\fill [black] (53.15,-32.22) -- (53.4,-31.31) -- (52.44,-31.6);
+\end{tikzpicture}
+\end{center}
+
+\end{document}

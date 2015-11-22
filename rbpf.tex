@@ -1,0 +1,43 @@
+% Appendix chapter on RBPF
+
+\chapter{Rao-Blackwellized factorization} \label{chap::rbpf}
+Particle filters have a great advantage of representing any arbitrary distribution through its non-parametric representation of distribution and it is simple and intuitive. A downside in use of particle filters is the exponential scaling of particles with the dimensions of state space. Hence, the use of particle filters have been restricted to low dimensional state estimation and tracking.
+
+However, few structural properties of the system can be exploited to improve the computational efficiency of the filter. In the SLAM scenario, the conditional independence property, as stated in Section~\ref{sec::factpf}, can be exploited and this factorization is called as Rao-Blackwellized factorization. The nature of this factorization is exact and landmark independence assumption (as in Section~\ref{sec::conscorr}) is taken into account in this following derivation.
+
+From product rule, SLAM posterior can be rewritten as,
+\begin{equation}
+p(s_{1:t},m|z_{1:t},u_{1:t},c_{1:t})=p(s_{1:t}|z_{1:t},u_{1:t},c_{1:t})\cdot p(m|s_{1:t},z_{1:t},u_{1:t},c_{1:t})
+\end{equation}  
+
+To obtain the factored version of SLAM posterior, it is sufficient to show the following-
+\begin{equation}
+p(m|s_{1:t},z_{1:t},c_{1:t}) = \prod_{n=1}^N p(m_n|s_{1:t},z_{1:t},c_{1:t}),
+\end{equation}
+and derived through induction. Firstly, the Bayes rule is applied to a feature observation given the robot trajectory $s_{1:t}$, controls $u_{1:t}$ and observations $z_{1:t}$.
+\begin{equation}
+p(m_i|s_{1:t},z_{1:t},u_{1:t},c_{1:t}) = \frac{p(z_t|m_n,s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})}{p(z_t|s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})}p(m_n|s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})
+\end{equation}
+
+As in the last term in the product, the observed feature does not depend upon the current pose and control unless with the current observation. Applying Markov assumption to the above product,
+\begin{equation}
+p(m_i|s_{1:t},z_{1:t},u_{1:t},c_{1:t}) = \frac{p(z_t|m_n,s_t,c_t)}{p(z_t|s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})}p(m_n|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1})
+\label{eq1_rbpf}
+\end{equation}
+
+Assuming the following induction hypothesis, which trivially holds true for time $t-1$,
+\begin{equation}
+p(m|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1})=\prod_{n=1}^N p(m_n|s_{1:t-1},z_{1:t-1},c_{1:t-1})
+\end{equation}
+
+By taking a general posterior and applying the same set of operations,
+\begin{align*}
+p(m|s_{1:t},z_{1:t},u_{1:t},c_{1:t}) &= \frac{p(z_t|m_n,s_t,c_t)}{p(z_t|s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})}p(m|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1}) \\
+\intertext{Using the induction principle at time $t-1$,}
+&= \frac{p(z_t|m_n,s_t,c_t)}{p(z_t|s_{1:t},z_{1:t-1},u_{1:t},c_{1:t})}\prod_{n=1}^N p(m_n|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1}) \\
+\intertext{Using Equation~\ref{eq1_rbpf} with the majority of the landmarks remain unchanged,}
+&= p(m_i|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1})\prod_{n\neq i}^N p(m_n|s_{1:t-1},z_{1:t-1},u_{1:t-1},c_{1:t-1}) \\
+&= \prod_{n=1}^N p(m_n|s_{1:t},z_{1:t},c_{1:t})
+\end{align*}
+
+Hence, the exact factorization is proved.

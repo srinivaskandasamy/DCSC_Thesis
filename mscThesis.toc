@@ -1,0 +1,53 @@
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{vii}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1-1}SLAM genesis}{2}{section.1.1}
+\contentsline {section}{\numberline {1-2}SLAM problem}{3}{section.1.2}
+\contentsline {section}{\numberline {1-3}State-of-the-Art solutions}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1-3-1}Extended Kalman filter-SLAM}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1-3-2}Particle filter-SLAM}{11}{subsection.1.3.2}
+\contentsline {section}{\numberline {1-4}Research objectives}{15}{section.1.4}
+\contentsline {section}{\numberline {1-5}Thesis contributions}{15}{section.1.5}
+\contentsline {section}{\numberline {1-6}Outline}{16}{section.1.6}
+\contentsline {chapter}{\numberline {2}Problem description}{19}{chapter.2}
+\contentsline {section}{\numberline {2-1}Notations}{19}{section.2.1}
+\contentsline {section}{\numberline {2-2}Probabilistic formulation}{20}{section.2.2}
+\contentsline {section}{\numberline {2-3}Robot model}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2-3-1}Motion model}{24}{subsection.2.3.1}
+\contentsline {subsubsection}{Velocity motion model}{25}{section*.28}
+\contentsline {subsubsection}{Odometry motion model}{26}{section*.30}
+\contentsline {subsection}{\numberline {2-3-2}Observation model}{27}{subsection.2.3.2}
+\contentsline {section}{\numberline {2-4}Environment representation}{28}{section.2.4}
+\contentsline {subsection}{\numberline {2-4-1}Point landmarks}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2-4-2}Occupancy maps}{32}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2-4-3}Histogram maps}{32}{subsection.2.4.3}
+\contentsline {section}{\numberline {2-5}Challenges}{34}{section.2.5}
+\contentsline {subsection}{\numberline {2-5-1}Observability}{34}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2-5-2}Correlation and Consistency}{37}{subsection.2.5.2}
+\contentsline {subsubsection}{EKF-SLAM}{39}{section*.42}
+\contentsline {subsubsection}{Particle filter-SLAM}{40}{section*.43}
+\contentsline {subsection}{\numberline {2-5-3}Data Association}{41}{subsection.2.5.3}
+\contentsline {chapter}{\numberline {3}SLAM solution}{43}{chapter.3}
+\contentsline {section}{\numberline {3-1}Factored representation}{43}{section.3.1}
+\contentsline {section}{\numberline {3-2}Particle filter-SLAM}{44}{section.3.2}
+\contentsline {subsection}{\numberline {3-2-1}Particle generation}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3-2-2}Prediction step}{46}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3-2-3}Data Association}{49}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3-2-4}Landmark update}{50}{subsection.3.2.4}
+\contentsline {subsubsection}{Negative evidence}{52}{section*.51}
+\contentsline {subsection}{\numberline {3-2-5}Landmark initialization}{52}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3-2-6}Importance resampling}{55}{subsection.3.2.6}
+\contentsline {section}{\numberline {3-3}Simulation Results}{56}{section.3.3}
+\contentsline {chapter}{\numberline {4}Practical implementation}{65}{chapter.4}
+\contentsline {section}{\numberline {4-1}Sphero robot}{65}{section.4.1}
+\contentsline {section}{\numberline {4-2}Single robot SLAM}{67}{section.4.2}
+\contentsline {section}{\numberline {4-3}Multiple robot SLAM}{73}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusions and Future work}{77}{chapter.5}
+\contentsline {section}{\numberline {5-1}Summary}{77}{section.5.1}
+\contentsline {section}{\numberline {5-2}Future work}{78}{section.5.2}
+\contentsline {chapter}{\numberline {A}Rao-Blackwellized factorization}{81}{appendix.A}
+\contentsline {chapter}{\numberline {B}Modified proposal distribution}{83}{appendix.B}
+\contentsline {chapter}{\numberline {C}Impact-based SLAM Algorithm}{87}{appendix.C}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{89}{section*.83}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Glossary}{93}{appendix*.85}
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Acronyms}{93}{section*.86}
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Symbols}{94}{section*.88}

@@ -1,0 +1,56 @@
+\BOOKMARK [-1][]{frontmatter_anchor.-1}{Front Matter}{}% 1
+\BOOKMARK [0][-]{cover_anchor.0}{Cover Page}{frontmatter_anchor.-1}% 2
+\BOOKMARK [0][-]{title_anchor.0}{Title Page}{frontmatter_anchor.-1}% 3
+\BOOKMARK [0][-]{toc_anchor.0}{Table of Contents}{frontmatter_anchor.-1}% 4
+\BOOKMARK [0][-]{lof_anchor.0}{List of Figures}{frontmatter_anchor.-1}% 5
+\BOOKMARK [0][-]{chapter*.5}{Acknowledgements}{frontmatter_anchor.-1}% 6
+\BOOKMARK [-1][]{mainmatter_anchor.-1}{Main Matter}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introduction}{mainmatter_anchor.-1}% 8
+\BOOKMARK [1][-]{section.1.1}{SLAM genesis}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{SLAM problem}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{State-of-the-Art solutions}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.3.1}{Extended Kalman filter-SLAM}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.2}{Particle filter-SLAM}{section.1.3}% 13
+\BOOKMARK [1][-]{section.1.4}{Research objectives}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.5}{Thesis contributions}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.6}{Outline}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{Problem description}{mainmatter_anchor.-1}% 17
+\BOOKMARK [1][-]{section.2.1}{Notations}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.2}{Probabilistic formulation}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Robot model}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Motion model}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Observation model}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Environment representation}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{Point landmarks}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{Occupancy maps}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.3}{Histogram maps}{section.2.4}% 26
+\BOOKMARK [1][-]{section.2.5}{Challenges}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.5.1}{Observability}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.2}{Correlation and Consistency}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.3}{Data Association}{section.2.5}% 30
+\BOOKMARK [0][-]{chapter.3}{SLAM solution}{mainmatter_anchor.-1}% 31
+\BOOKMARK [1][-]{section.3.1}{Factored representation}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.2}{Particle filter-SLAM}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.2.1}{Particle generation}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.2}{Prediction step}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.3}{Data Association}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.4}{Landmark update}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.5}{Landmark initialization}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.6}{Importance resampling}{section.3.2}% 39
+\BOOKMARK [1][-]{section.3.3}{Simulation Results}{chapter.3}% 40
+\BOOKMARK [0][-]{chapter.4}{Practical implementation}{mainmatter_anchor.-1}% 41
+\BOOKMARK [1][-]{section.4.1}{Sphero robot}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.2}{Single robot SLAM}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.3}{Multiple robot SLAM}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{Conclusions and Future work}{mainmatter_anchor.-1}% 45
+\BOOKMARK [1][-]{section.5.1}{Summary}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 47
+\BOOKMARK [-1][]{apdx_anchor.-1}{Appendices}{}% 48
+\BOOKMARK [0][-]{appendix.A}{Rao-Blackwellized factorization}{apdx_anchor.-1}% 49
+\BOOKMARK [0][-]{appendix.B}{Modified proposal distribution}{apdx_anchor.-1}% 50
+\BOOKMARK [0][-]{appendix.C}{Impact-based SLAM Algorithm}{apdx_anchor.-1}% 51
+\BOOKMARK [-1][]{backmatter_anchor.-1}{Back Matter}{}% 52
+\BOOKMARK [0][-]{section*.83}{Bibliography}{backmatter_anchor.-1}% 53
+\BOOKMARK [0][-]{appendix*.85}{Glossary}{backmatter_anchor.-1}% 54
+\BOOKMARK [1][-]{section*.86}{List of Acronyms}{appendix*.85}% 55
+\BOOKMARK [1][-]{section*.88}{List of Symbols}{appendix*.85}% 56

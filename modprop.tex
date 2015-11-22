@@ -1,0 +1,83 @@
+% Appendix on the modified proposal distribution
+
+\chapter{Modified proposal distribution} \label{mod_prop}
+A modified proposal distribution was proposed by \cite{montemerlo2007fastslam}, \cite{monte2002phd} to overcome the particle degeneracy problem in situations where the robot's motion is more noisier than incoming measurements. In this situation, the particles are drawn from a noisy motion model which distributes the particles over a relatively large space. This scenario occurs frequently in practical situations including the impact-based SLAM using Sphero robots. This is because a systematic error arises in the motion of the robot as it starts to drift, in addition to other motion noise such as slip. This error gets integrated over time and is accounted as noise in the motion model. The measurement error is comparatively lower than the motion noise in the impact-based SLAM, provided the calibration is taken care. More details on calibration is given in Section~\ref{sec::sphero}.
+
+\section*{Deriving the new proposal}
+The use of measurements in the motion model samples the next robot pose using a more accurate measurement in addition to the noisy motion model. This does not result in degeneracy of the particle set after few iterations as shown in Figure~\ref{fastslam2}. The use of modified proposal distribution improvises the prediction step calculation through consideration of measurement by taking into account for the measurement variance propagation.
+
+The modified proposal distribution can be written as,
+\begin{equation}
+p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t})
+\end{equation}
+The proposal distribution can be expanded using Bayes rule as follows,
+\begin{equation}
+p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t}) = \eta\cdot p(z_t|s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})
+\end{equation}
+Taking the Markov assumption on second term of the product which is the old motion model,
+\begin{equation}
+p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t}) = \eta\cdot p(z_t|s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot p(s_t|s^{[k]}_{t-1},u_t)
+\end{equation} 
+Using the theorem of Total Probability where the measurements are conditioned upon the current observed landmark $c_t$,
+\begin{equation}
+= \eta\cdot \int p(z_t|m_{c_t},s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot p(m_{c_t}|s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot dm_{c_t}\cdot p(s_t|s^{[k]}_{t-1},u_t)
+\end{equation}
+Applying Markov assumption,
+\begin{equation}
+= \eta\int p(z_t|m_{c_t},s_t,,c_t)\cdot p(m_{c_t}|s^{[k]}_{t-1},u_{1:t-1},z_{1:t-1},c_{1:t-1})\cdot dm_{c_t}\cdot p(s_t|s^{[k]}_{t-1},u_t)
+\end{equation}
+The first term of the integrand is the old measurement model while the second term is the landmark model. Both the terms are expressed as Gaussian for a closed form solution. The same holds for the motion model. The integrand can be solved using convolution with a linearized measurement model. A first order Taylor expansion of the measurement model (refer Section~\ref{sec::land_update}) is shown below,
+\begin{equation}
+z_t\approx \hat{z}_t+G_s\left(s_t-\hat{s}_t\right)+G_{m}\left(m_{c_t}-\mu^{[k]}_{c_t,t-1}\right)
+\end{equation}
+The convolution can now be obtained for the terms inside the integrand as follows,
+\begin{equation}
+\mathcal{N}\left(\hat{z}_t+G_s\left(s_t-\hat{s}_t\right),\underbrace{R_t+G_{m}\Sigma^{[k]}_{c_t,t-1}G^T_{m}}_{Z_{t,c_t}}\right)
+\end{equation}
+The proposal distribution is obtained through the product of the above Gaussian and Gaussian model of motion $\mathcal{N}\left(\hat{s}_t,P_t\right)$. The above Gaussian models the propagation of measurements into the modified proposal distribution, as seen in the first term of the addition in the following $\chi^2$ distribution. The second term of the addition refers to the propagation of motion noise. The modified proposal Gaussian can be written as,
+\begin{equation}
+p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t}) \propto \exp\left(-\chi^2\right)
+\end{equation} 
+where,
+\begin{equation}
+\chi^2 = \frac{1}{2}\left[\left(z_t-\hat{z}_t-G_ss_t+G_s\hat{s}_t\right)^TZ_{t,c_t}^{-1}\left(z_t-\hat{z}_t-G_ss_t+G_s\hat{s}_t\right)+\left(s_t-\hat{s}_t\right)^TP^{-1}_t\left(s_t-\hat{s}_t\right)\right]
+\end{equation}
+
+The mean and covariance of the new sampling distribution can be obtained by minimizing the $\chi^2$ distribution through first and second derivatives, much similar to the derivation in Section~\ref{sec::land_update}.
+\begin{align}
+\Sigma^{[k]}_{s_t,c_t} &= \left(G^T_sZ^{-1}_{t,c_t}G_s+P^{-1}_t\right)^{-1} \label{mod_mean}\\
+\mu^{[k]}_{s_t,c_t} &= \Sigma^{[k]}_{s_t}G^T_sZ^{-1}_{t,c_t}\left(z_t-\hat{z}_t\right)+\hat{s}^{[k]}_t \label{mod_cov}
+\end{align}
+The Gaussian is constructed for each particle in the sample set, and a new sample is drawn and placed in the temporary particle set which approximates the new proposal distribution. 
+
+\section*{Calculating importance weights}
+The importance weight \cite{monte2002phd} can be calculated using Equation~\ref{imp_wt} with the modified proposal distribution can be written as the product,
+\begin{equation}
+p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})\cdot p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t})
+\end{equation}
+The modified proposal distribution is written as a product of old posterior distribution and the new prediction model while the target distribution is the new posterior, encoded along with the measurement likelihood $p(z_t|\cdots)$. 
+\begin{align*}
+w^{[k]}_t &= \frac{\text{target distribution}}{\text{proposal distribution}} \\
+&= \frac{p(s^{[k]}_{t}|u_{1:t},z_{1:t},c_{1:t})}{p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})\cdot p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t})} \\
+\intertext{Expanding the numerator,}
+&=\frac{p(s^{[k]}_{t}|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t})\cdot p(s^{[k]}_{t-1}|u_{1:t},z_{1:t},c_{1:t})}{p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})\cdot p(s_t|s^{[k]}_{t-1},u_{1:t},z_{1:t},c_{1:t})} \\
+&=\frac{p(s^{[k]}_{t-1}|u_{1:t},z_{1:t},c_{1:t})}{p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})} \\
+\intertext{Using Bayes' rule on the numerator,}
+&=\eta\,\frac{p(z_t|s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})}{p(s^{[k]}_{t-1}|u_{1:t-1},z_{1:t-1},c_{1:t-1})} \\
+&=\eta\,p(z_t|s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})
+\end{align*}
+Applying Theorem of Total Probability twice, first on the robot pose and second on the associated landmark,
+\begin{align*}
+&=\eta\,\int p(z_t|s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})\cdot p(s_t|s^{[k]}_{t-1},u_t)ds_t \\
+&=\eta\,\int\int p(z_t|m_{c_t},s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})p(m_{c_t}|s_t,s^{[k]}_{t-1},u_{1:t},z_{1:t-1},c_{1:t})dm_{c_t}p(s_t|s^{[k]}_{t-1},u_t)ds_t
+\end{align*}
+Applying convolution theorem twice yields the Gaussian,
+\begin{equation}
+\mathcal{N}\left(\hat{z}_t,\underbrace{G_sP_tG_s^T+G_{m}\Sigma_{c_t,t-1}G^T_{m}+R_t}_{L_t}\right)
+\end{equation}
+
+The importance weight can be calculated from the Gaussian equation,
+\begin{equation}
+w^{[k]}_t=|2\pi L_t|^{0.5}\cdot \exp\left(\frac{1}{2}\left(z_t-\hat{z}_t\right)^TL^{-1}_t\left(z_t-\hat{z}_t\right)\right)
+\label{mod_weight}
+\end{equation}

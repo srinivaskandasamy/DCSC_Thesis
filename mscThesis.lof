@@ -1,0 +1,63 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1-1}{\ignorespaces Sample environment for a SLAM example}}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {1-2}{\ignorespaces First measurement of landmark A\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {1-3}{\ignorespaces Update of landmark position A\relax }}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {1-4}{\ignorespaces Exploration of the environment\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {1-5}{\ignorespaces Measurements of landmarks B and C\relax }}{5}{figure.caption.12}
+\contentsline {figure}{\numberline {1-6}{\ignorespaces Update of landmarks B and C\relax }}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {1-7}{\ignorespaces Second measurements of landmark A\relax }}{7}{figure.caption.14}
+\contentsline {figure}{\numberline {1-8}{\ignorespaces Loop closure in SLAM\relax }}{7}{figure.caption.15}
+\contentsline {figure}{\numberline {1-9}{\ignorespaces Network of constraints in impact-based SLAM}}{8}{figure.caption.16}
+\contentsline {figure}{\numberline {1-10}{\ignorespaces Dynamic Bayesian Network graph of SLAM}}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {1-11}{\ignorespaces Importance Sampling in a particle filter}}{14}{figure.caption.21}
+\contentsline {figure}{\numberline {1-12}{\ignorespaces Modified proposal distribution for SLAM}}{15}{figure.caption.22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces Dynamic Bayesian Network graph of online SLAM problem}}{21}{figure.caption.24}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces Dynamic Bayesian Network graph of full SLAM problem}}{21}{figure.caption.25}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces Velocity model}}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Odometry model}}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Sampling algorithm using velocity motion model}}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {2-6}{\ignorespaces Approximation of robot motion in odometry model}}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {2-7}{\ignorespaces Sampling algorithm for odometry motion model}}{27}{figure.caption.32}
+\contentsline {figure}{\numberline {2-8}{\ignorespaces A simple point landmark representation}}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {2-9}{\ignorespaces Scaled representation of point landmarks}}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {2-10}{\ignorespaces Spatial representation of a map information}}{32}{figure.caption.36}
+\contentsline {figure}{\numberline {2-11}{\ignorespaces A simple 1-D wall for impact-based mapping}}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {2-12}{\ignorespaces Histogram propagation of measurement information}}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {2-13}{\ignorespaces Histogram propagation for a sequence of collision information}}{35}{figure.caption.39}
+\contentsline {figure}{\numberline {2-14}{\ignorespaces Update of negative information in histogram}}{36}{figure.caption.40}
+\contentsline {figure}{\numberline {2-15}{\ignorespaces Gaussian and particle representation of robot pose distribution}}{38}{figure.caption.41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces A flowchart of particle filter-SLAM algorithm}}{45}{figure.caption.46}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Finite State Machine model of robot-wall collisions}}{47}{figure.caption.48}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Types of collision generation in impact-based SLAM}}{48}{figure.caption.49}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Per-particle data association algorithm}}{50}{figure.caption.50}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces A sample rectilinear world}}{54}{figure.caption.52}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces A tree data structure for landmark representation}}{54}{figure.caption.53}
+\contentsline {figure}{\numberline {3-7}{\ignorespaces Rectilinear world as a simulation environment}}{56}{figure.caption.55}
+\contentsline {figure}{\numberline {3-8}{\ignorespaces Odometry information in simulation}}{57}{figure.caption.56}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces Growth of landmarks for different landmark representations}}{58}{figure.caption.57}
+\contentsline {figure}{\numberline {3-10}{\ignorespaces Convergence rate for different landmarks}}{59}{figure.caption.58}
+\contentsline {figure}{\numberline {3-11}{\ignorespaces Increase in convergence rate through addition of rectilinear constraints}}{59}{figure.caption.59}
+\contentsline {figure}{\numberline {3-12}{\ignorespaces Histogram distribution encoding collision information}}{61}{figure.caption.60}
+\contentsline {figure}{\numberline {3-13}{\ignorespaces Processing of the resulting histograms using data threshold}}{62}{figure.caption.61}
+\contentsline {figure}{\numberline {3-14}{\ignorespaces Clubbing of collision information in the processed histogram}}{63}{figure.caption.62}
+\contentsline {figure}{\numberline {3-15}{\ignorespaces Output histogram map of the simulated environment}}{64}{figure.caption.63}
+\contentsline {figure}{\numberline {3-16}{\ignorespaces Merged map of the sample environment using two robots}}{64}{figure.caption.64}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces Sphero 2.0 Robotic ball}}{65}{figure.caption.65}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces Effect of impact on X and Y axis accelerometer data. The ball in this case is forced to be at rest. The collision is detected at the black vertical line.\relax }}{66}{figure.caption.67}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces Effect of collision on X and Y axis accelerometer data. The ball with a non-zero initial velocity collides against a wall. The collision is detected at the black vertical line.\relax }}{67}{figure.caption.68}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces Real world environment for impact-based SLAM}}{68}{figure.caption.69}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces Output map of SLAM solution with constraint incorporation as measurement with low covariance. The red coloured landmarks are spurious and are not updated. The histogram distribution is processed finally and pruned to the nearest neighbouring landmarks.\relax }}{69}{figure.caption.70}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces Convergence plot of the SLAM solution with constraint updates of low covariance}}{70}{figure.caption.71}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Convergence in the map solution for a conservative constraint update of covariance $R_{CI}=0.1\cdot \Sigma _{\theta }$. The standard deviation ($1\sigma $) plots for the position $s_i$ and orientation $\phi _i$ of landmarks are computed from the ML particle.\relax }}{71}{figure.caption.73}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces Convergence in the map solution for a conservative constraint update of covariance $R_{CI}=0.5\cdot \Sigma _{\theta }$. The standard deviation ($1\sigma $) plots for the position $s_i$ and orientation $\phi _i$ of landmarks are computed from the ML particle.\relax }}{71}{figure.caption.74}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces Output map from a conservative SLAM solution using a single robot}}{72}{figure.caption.76}
+\contentsline {figure}{\numberline {4-11}{\ignorespaces Map comparisons from the two robots }}{75}{figure.caption.78}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

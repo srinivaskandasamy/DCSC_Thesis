@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{agarwalsurvey}
+P.~Agarwal, W.~Burgard, and C.~Stachniss, ``Survey of {G}eodetic {M}apping
+  {M}ethods: {G}eodetic {A}pproaches to {M}apping and the {R}elationship to
+  {G}raph-{B}ased {SLAM},'' {\em IEEE Robotics \& Automation Magazine},
+  vol.~21, no.~3, pp.~63--80, 2014.
+
+\bibitem{dissanayake2001solution}
+M.~G. Dissanayake, P.~Newman, S.~Clark, H.~F. Durrant-Whyte, and M.~Csorba, ``A
+  {S}olution to the {S}imultaneous {L}ocalization {A}nd {M}ap building {(SLAM)}
+  problem,'' {\em IEEE Transactions on Robotics and Automation}, vol.~17,
+  no.~3, pp.~229--241, 2001.
+
+\bibitem{golombek1997overview}
+M.~Golombek, R.~Cook, T.~Economou, W.~Folkner, A.~Haldemann, P.~Kallemeyn,
+  J.~M. Knudsen, R.~Manning, H.~Moore, and T.~Parker, ``Overview of the mars
+  pathfinder mission and assessment of landing site predictions,'' {\em
+  Science}, vol.~278, no.~5344, pp.~1743--1748, 1997.
+
+\bibitem{thrun2003system}
+S.~Thrun, D.~Hahnel, D.~Ferguson, M.~Montemerlo, R.~Triebel, W.~Burgard,
+  C.~Baker, Z.~Omohundro, S.~Thayer, and W.~Whittaker, ``A system for
+  volumetric robotic mapping of abandoned mines,'' in {\em Proceedings of the
+  IEEE International Conference on Robotics and Automation (ICRA)}, vol.~3,
+  pp.~4270--4275, IEEE, 2003.
+
+\bibitem{montemerlo2002conditional}
+M.~Montemerlo, S.~Thrun, and W.~Whittaker, ``Conditional particle filters for
+  simultaneous mobile robot localization and people-tracking,'' in {\em
+  Proceedings of the IEEE International Conference on Robotics and Automation
+  (ICRA)}, vol.~1, pp.~695--701, IEEE, 2002.
+
+\bibitem{thrun2005probabilistic}
+S.~Thrun, W.~Burgard, and D.~Fox, {\em Probabilistic {R}obotics}.
+\newblock MIT Press, 2005.
+
+\bibitem{bailey2006simultaneous}
+T.~Bailey and H.~Durrant-Whyte, ``Simultaneous {L}ocalization {A}nd {M}apping
+  (slam): Part ii,'' {\em IEEE Robotics \& Automation Magazine}, vol.~13,
+  no.~3, pp.~108--117, 2006.
+
+\bibitem{montemerlo2002fastslam}
+M.~Montemerlo, S.~Thrun, D.~Koller, and B.~Wegbreit, ``Fast{SLAM}: {A}
+  {F}actored {S}olution to the {S}imultaneous {L}ocalization {A}nd {M}apping
+  {P}roblem,'' in {\em Proceedings of the AAAI National Conference on
+  Artificial Intelligence}, pp.~593--598, 2002.
+
+\bibitem{bailey2006consistency}
+T.~Bailey, J.~Nieto, J.~Guivant, M.~Stevens, and E.~Nebot, ``Consistency of the
+  {EKF-SLAM} algorithm,'' in {\em Proceedings of the IEEE Conference on
+  Intelligent Robots and Systems}, pp.~3562--3568, 2006.
+
+\bibitem{huang2011observability}
+G.~P. Huang, N.~Trawny, A.~I. Mourikis, and S.~I. Roumeliotis,
+  ``Observability-based {C}onsistent {EKF} {E}stimators for {M}ulti-{R}obot
+  {C}ooperative {L}ocalization,'' {\em Autonomous Robots}, vol.~30, no.~1,
+  pp.~99--122, 2011.
+
+\bibitem{thrun2006stanley}
+S.~Thrun, M.~Montemerlo, H.~Dahlkamp, D.~Stavens, A.~Aron, J.~Diebel, P.~Fong,
+  J.~Gale, M.~Halpenny, G.~Hoffmann, {\em et~al.}, ``Stanley: The robot that
+  won the {DARPA} {G}rand {C}hallenge,'' {\em Journal of field Robotics},
+  vol.~23, no.~9, pp.~661--692, 2006.
+
+\bibitem{montemerlo2007fastslam}
+M.~Montemerlo, S.~Thrun, D.~Koller, and B.~Wegbreit, ``{FastSLAM} 2.0: An
+  {I}mproved {P}article {F}iltering {A}lgorithm for {S}imultaneous
+  {L}ocalization {A}nd {M}apping that {P}rovably {C}onverges,'' in {\em
+  Proceedings of the Sixteenth International Joint Conference on Artificial
+  Intelligence (IJCAI)}, (Acapulco, Mexico), IJCAI, 2003.
+
+\bibitem{koller2009probabilistic}
+D.~Koller and N.~Friedman, {\em Probabilistic {G}raphical {M}odels:
+  {P}rinciples and {T}echniques}.
+\newblock MIT Press, 2009.
+
+\bibitem{jensfelt2001approaches}
+P.~Jensfelt, ``Approaches to mobile robot localization in indoor
+  environments,'' in {\em PhD thesis, Signal, Sensors and Systems (S3), Royal
+  Institute of Technology, SE-100 44}, Citeseer, 2001.
+
+\bibitem{julier2003stability}
+S.~J. Julier, ``The stability of covariance inflation methods for slam,'' in
+  {\em IEEE International Conference on Intelligent Robots and Systems},
+  vol.~3, pp.~2749--2754, 2003.
+
+\bibitem{newman1999structure}
+P.~Newman, {\em On the {S}tructure and {S}olution of the {S}imultaneous
+  {L}ocalisation {A}nd {M}ap building problem}.
+\newblock PhD thesis, University of Sydney, 1999.
+
+\bibitem{fox2012tactile}
+C.~Fox, M.~Evans, M.~Pearson, and T.~Prescott, ``Tactile {SLAM} with a
+  biomimetic whiskered robot,'' in {\em Proceedings of the {IEEE} International
+  Conference on Robotics and Automation}, pp.~4925--4930, 2012.
+
+\bibitem{fox2012towards}
+C.~W. Fox, M.~H. Evans, M.~J. Pearson, and T.~J. Prescott, ``Towards
+  hierarchical blackboard mapping on a whiskered robot,'' {\em Robotics and
+  Autonomous Systems}, vol.~60, no.~11, pp.~1356--1366, 2012.
+
+\bibitem{durrant2006simultaneous}
+H.~Durrant-Whyte and T.~Bailey, ``Simultaneous {L}ocalization {A}nd {M}apping:
+  Part {I} {T}he {E}ssential {A}lgorithms,'' {\em IEEE Robotics \& Automation
+  Magazine}, vol.~13, no.~2, pp.~99--110, 2006.
+
+\bibitem{julier2001counter}
+S.~J. Julier and J.~K. Uhlmann, ``A {C}ounter {E}xample to the {T}heory of
+  {S}imultaneous {L}ocalization {A}nd {M}ap building,'' in {\em Proceedings of
+  the IEEE Conference on Robotics and Automation}, vol.~4, pp.~4238--4243,
+  2001.
+
+\bibitem{cooper2005comparison}
+A.~J. Cooper, {\em A comparison of data association techniques for simultaneous
+  localization and mapping}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2005.
+
+\bibitem{julier2004unscented}
+S.~J. Julier and J.~K. Uhlmann, ``Unscented {F}iltering and {N}onlinear
+  {E}stimation,'' {\em Proceedings of the IEEE}, vol.~92, no.~3, pp.~401--422,
+  2004.
+
+\bibitem{castellanos2007robocentric}
+J.~A. Castellanos, R.~Martinez-Cantin, J.~D. Tard{\'o}s, and J.~Neira,
+  ``Robocentric map joining: Improving the consistency of ekf-slam,'' {\em
+  Robotics and Autonomous Systems}, vol.~55, no.~1, pp.~21--29, 2007.
+
+\bibitem{julier2007using}
+S.~J. Julier and J.~K. Uhlmann, ``Using covariance intersection for slam,''
+  {\em Journal of Robotics and Autonomous Systems}, vol.~55, no.~1, pp.~3--20,
+  2007.
+
+\bibitem{jensfelt2001active}
+P.~Jensfelt and S.~Kristensen, ``Active global localization for a mobile robot
+  using multiple hypothesis tracking,'' {\em IEEE Transactions on Robotics and
+  Automation}, vol.~17, no.~5, pp.~748--760, 2001.
+
+\bibitem{grisetti2005improving}
+G.~Grisetti, C.~Stachniss, and W.~Burgard, ``Improving grid-based slam with
+  rao-blackwellized particle filters by adaptive proposals and selective
+  resampling,'' in {\em Proceedings of the IEEE International Conference on
+  Robotics and Automation}, pp.~2432--2437, 2005.
+
+\bibitem{spheroros}
+``{Sphero-ROS SDK}.'' \url{http://mmwise.github.io/sphero_ros/}.
+\newblock Accessed: 2015-08-13.
+
+\bibitem{spherorobot}
+``{Sphero Robotic ball}.'' \url{http://www.sphero.com/}.
+\newblock Accessed: 2015-08-10.
+
+\bibitem{rodriguez2007consistency}
+D.~Rodriguez-Losada, F.~Matia, L.~Pedraza, A.~Jimenez, and R.~Galan,
+  ``Consistency of {SLAM-EKF} algorithms for {I}ndoor {E}nvironments,'' {\em
+  Journal of Intelligent and Robotic Systems}, vol.~50, no.~4, pp.~375--397,
+  2007.
+
+\bibitem{beevers2007mapping}
+K.~R. Beevers, {\em Mapping with {L}imited {S}ensing}.
+\newblock PhD thesis, Rensselaer Polytechnic Institute, 2007.
+
+\bibitem{steux2010tinyslam}
+S.~Bruno and O.~El~Hamzaoui, ``tinyslam: A slam algorithm in less than 200
+  lines c-language program,'' in {\em Proceedings of the IEEE International
+  Conference on Control Automation Robotics and Vision}, 2010.
+
+\bibitem{monte2002phd}
+M.~Montemerlo, {\em Fast{SLAM}: A factored solution to the simultaneous
+  localization and mapping problem}.
+\newblock PhD thesis, Robotics Institute, Carnegie Mellon University, 2002.
+
+\end{thebibliography}

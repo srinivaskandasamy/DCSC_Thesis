@@ -1,0 +1,49 @@
+\documentclass{beamer}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usetikzlibrary{arrows,shapes}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{50pt}%
+\begin{document}
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+\begin{frame}
+\tikzset{
+    vertex/.style={
+        circle,
+        fill=black!25,
+        minimum size=20pt,
+        inner sep=0pt,
+        text height=2ex,
+        text depth=1ex,
+        text width = 1em,
+        label={[pred label]center:\pred}
+    },
+    pred label/.style={
+        font=\tiny,
+        xshift=0.3em,
+        yshift=-0.8ex,
+        text height=1ex,
+        text depth=0pt
+    },
+}
+
+
+    \begin{figure}
+        \begin{tikzpicture}[scale=2.5, auto,swap]
+            % First we draw the vertices
+            \foreach \pos/\name/\pred in {%
+                {(0,2)/x/t},%
+                {(1,2)/y/t+1}%
+            }
+                \node[vertex] (\name) at \pos {$\name$};
+            % Connect vertices with edges and draw weights
+            \foreach \source/ \dest /\style in {x/y/}
+                \path (\source) edge[->,\style, thick] node {$$} (\dest);
+        \end{tikzpicture}
+        \end{figure}
+    \end{frame}
+\end{document}

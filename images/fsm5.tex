@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{20pt}%
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [red!50,fill=red!50] (15.5,-16.1) circle (3);
+\draw (15.5,-16.1) node {$s_1$};
+\draw [red!50,fill=red!50] (30.8,-10.3) circle (3);
+\draw (30.8,-10.3) node {$s_2$};
+\draw [red!50,fill=red!50] (46.6,-16.8) circle (3);
+\draw (46.6,-16.8) node {$s_3$};
+\draw [red!50,fill=red!50] (42.2,-30.6) circle (3);
+\draw (42.2,-30.6) node {$s_i$};
+\draw [red!50,fill=red!50] (27.9,-23.3) circle (3);
+\draw (27.9,-23.3) node {$s_j$};
+%\draw [black] (59.7,-12) circle (3);
+%\draw (59.7,-12) node {$s_4$};
+%\draw [black] (4.5,-10.3) circle (3);
+%\draw (4.5,-10.3) node {$\ddots$};
+%\draw [black] (55.9,-34.9) circle (3);
+%\draw (55.9,-34.9) node {$s_p$};
+%\draw [black] (14.5,-29.7) circle (3);
+%\draw (14.5,-29.7) node {$s_q$};
+\draw [black] (18.31,-15.04) -- (27.99,-11.36);
+\fill [black] (27.99,-11.36) -- (27.07,-11.18) -- (27.42,-12.11);
+\draw [black] (33.8,-11.2) -- (43.85,-15.6) node[midway,above=10]{$\left\langle e_{ij},\Omega_{ij}\right\rangle$}; 
+\fill [black] (43.85,-15.6) -- (43.32,-14.82) -- (42.92,-15.73);
+\draw [black,dashed,thick] (49.42,-15.77) -- (56.88,-13.03);
+\fill [black] (56.88,-13.03) -- (55.96,-12.84) -- (56.3,-13.78);
+\draw [black,dashed,thick] (43.1,-27.7) -- (45.68,-19.66);
+\fill [black] (45.68,-19.66) -- (44.96,-20.27) -- (45.91,-20.57);
+\draw [black,dashed,thick] (30.2,-13.4) -- (28.58,-20.38);
+\fill [black] (28.58,-20.38) -- (29.25,-19.71) -- (28.27,-19.49);
+\draw [black,dashed,thick] (7.1,-11.9) -- (12.82,-14.76);
+\fill [black] (12.82,-14.76) -- (12.32,-13.95) -- (11.88,-14.85);
+\draw [black,dashed,thick] (17.1,-28.2) -- (25.17,-24.54);
+\fill [black] (25.17,-24.54) -- (24.23,-24.41) -- (24.65,-25.33);
+\draw [black,dashed,thick] (53.04,-34) -- (45.06,-31.5);
+\fill [black] (45.06,-31.5) -- (45.68,-32.22) -- (45.98,-31.26);
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{20pt}%
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [gray!30,fill=gray!30] (38,-11.2) circle (3);
+\draw (38,-11.2) node {$m$};
+\draw [red!50,fill=red!50] (11.5,-29) circle (3);
+\draw (11.5,-29) node {$1$};
+\draw [red!50,fill=red!50] (23.2,-29) circle (3);
+\draw (23.2,-29) node {$2$};
+\draw [red!50,fill=red!50] (35.7,-29) circle (3);
+\draw (35.7,-29) node {$3$};
+\draw [red!50,fill=red!50] (49.4,-29) circle (3);
+\draw (49.4,-29) node {$4$};
+\draw [gray!30,fill=gray!30] (64.6,-29) circle (3);
+\draw [red!50,fill=red!50] (58.1,-42) circle (3);
+\draw (58.1,-42) node {$5$};
+\draw [red!50,fill=red!50] (73.3,-42) circle (3);
+\draw (73.3,-42) node {$6$};
+\draw [black] (35.6,-13.1) -- (14,-27.35);
+\fill [black] (14,-27.35) -- (14.95,-27.32) -- (14.4,-26.49);
+\draw [black] (36.5,-13.8) -- (25.18,-26.74);
+\fill [black] (25.18,-26.74) -- (26.08,-26.47) -- (25.33,-25.81);
+\draw [black] (38,-14.2) -- (36.16,-26.04);
+\fill [black] (36.16,-26.04) -- (36.78,-25.32) -- (35.79,-25.17);
+\draw [black] (39.8,-13.6) -- (47.81,-26.45);
+\fill [black] (47.81,-26.45) -- (47.81,-25.51) -- (46.97,-26.04);
+\draw [black] (40.4,-13) -- (62.1,-27.35);
+\fill [black] (62.1,-27.35) -- (61.71,-26.49) -- (61.15,-27.32);
+\draw [black] (63.26,-31.68) -- (59.44,-39.32);
+\fill [black] (59.44,-39.32) -- (60.25,-38.82) -- (59.35,-38.38);
+\draw [black] (66.4,-31.5) -- (71.65,-39.49);
+\fill [black] (71.65,-39.49) -- (71.63,-38.55) -- (70.8,-39.1);
+\end{tikzpicture}
+\end{center}
+
+\end{document}

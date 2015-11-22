@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mscThesis.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: problem.aux
+A level-1 auxiliary file: solution.aux
+A level-1 auxiliary file: implementation.aux
+A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: rbpf.aux
+A level-1 auxiliary file: modprop.aux
+A level-1 auxiliary file: impact_SLAM.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: glossary.aux
+Database file #1: MyBib.bib
+You've used 32 entries,
+            1876 wiz_defined-function locations,
+            664 strings with 9996 characters,
+and the built_in function-call counts, 9433 in all, are:
+= -- 952
+> -- 368
+< -- 0
++ -- 136
+- -- 104
+* -- 664
+:= -- 1299
+add.period$ -- 40
+call.type$ -- 32
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 482
+empty$ -- 888
+format.name$ -- 104
+if$ -- 2297
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 28
+newline$ -- 107
+num.names$ -- 30
+pop$ -- 120
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 341
+stack$ -- 0
+substring$ -- 697
+swap$ -- 202
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 93
+width$ -- 34
+write$ -- 324

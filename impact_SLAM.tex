@@ -1,0 +1,67 @@
+\chapter{Impact-based SLAM Algorithm}	\label{chap::pseudocode}
+The pseudo-code for impact-based SLAM using particle filter is shown in Algorithm~\ref{alg_slam}. The input to the algorithm are the particle set $Y_{t-1}$ at time $t-1$, measurement $z_t$, motion noise covariance $P_t$, measurement noise covariance $R_t$, control input $u_t$ and minimum correspondence likelihood $p_0$. The flowchart describing the algorithm is shown in Figure~\ref{flow_fs}.
+
+For data association step in the algorithm, computing the most likely landmark is linear in the landmark size along with a matrix inverse computation, scaling $\mathcal{O}(n^3)$, $n$ being the number of dimensions. To improve the computational efficiency, simple geometric constraints apart from orthogonality and corridor width can be taken into account. The landmarks which are not in the view of robot's heading can be pruned from association since it will yield a very low likelihood to the current measurement. Similarly for computing data association for features within the same landmark, certain features are geometrically ordered with respect to the current robot pose. For example, certain feature or wall face of the landmark cannot be viewed from other side of wall. 
+
+In the geometric update step, the constraints are incorporated as measurements into the state estimates using an additional EKF update step \cite{rodriguez2007consistency}, \cite{newman1999structure}. The constraints are modelled as a hyperplane of the form,
+\begin{equation}
+Cx = b + \epsilon
+\end{equation}
+where $C$ and $b$ model the rectilinear constraints such as orthogonality. The constraints are incorporated with a non-zero covariance $E(\epsilon\epsilon^T)$ between neighbouring landmarks to avoid inconsistency in the SLAM solution. At the end of iterations, the constraints are added with zero covariance for all the landmarks or in other words, it is assumed to be certain that all the landmarks in the map must follow a rectilinear structure.
+
+The histogram update step is carried out using discrete Bayes filter or the simple update procedure (as mentioned in Section~\ref{sec::hist_map}). A Gaussian distribution or triangular distribution (used in simulations) is used for updating the histogram followed by normalization if needed. The same holds for adding negative information to the histogram.  
+
+\begin{algorithm}[H]
+\small
+\caption{Impact-based SLAM using particle filter}
+\label{alg_slam}
+\begin{algorithmic}[1]
+\BState \textbf{Input}: $Y_{t-1}$, $z_t$, $P_t$, $R_t$, $u_t$, $p_0$
+\State $Y_{t} = \emptyset$
+\If {measurement is not available at $t$}
+\For{each particle $k$ \Pisymbol{psy}{206} $Y_t$}
+\State calculate proposal $s^{[k]}_t\sim\mathcal{N}\left(s_t|s_{t-1},u_t\right)$
+\State landmark estimates unchanged $\mu^{[k]}_{i,c_t}=\mu^{[k]}_{i,c_{t-1}}$, $\Sigma^{[k]}_{i,c_t}=\Sigma^{[k]}_{i,c_{t-1}}$
+\State  append $\left\langle s^{[k]}_t, \mu^{[k]}_{1,t},\Sigma^{[k]}_{1,t},\dots,\mu^{[k]}_{N,t},\Sigma^{[k]}_{N,t}\right\rangle$ to $Y_t$
+\EndFor
+\Else
+\For{each particle $k$ \Pisymbol{psy}{206} $Y_t$}
+\For {each $c_t$ \Pisymbol{psy}{206} $N$}
+\State compute equations~\ref{mod_mean} and \ref{mod_cov} for given $c_t$ and $z_t$
+\State calculate modified proposal $s^{[k]}_{t,c_t}\sim\mathcal{N}\left(s_t;\mu^{[k]}_{s_t,c_t},\Sigma^{[k]}_{s_t,c_t}\right)$
+\State calculate likelihood for $c_t$: $d^{[k]}_{c_t}=|2\pi Z_{t,c_t}|^{0.5}\exp\left(-0.5\cdot\left(z_t-\hat{z}_t\right)^TZ^{-1}_{t,c_t}\left(z_t-\hat{z}_t\right)\right)$
+\EndFor
+\State Compute most likely landmark $\hat{c}_t$ 
+\Comment {data association}
+\If {all likelihoods less than $p_0$}
+\Comment {initialize landmark}
+\State compute mean and covariance from equations~\ref{landmark_init1}~and~\ref{landmark_init2}
+\State append estimate to particle $Y^{[k]}_{t-1}$
+\State EKF update with neighbouring landmarks $\phi_i-\phi_j=n\cdot\frac{\pi}{2}$
+\State create new histogram with finite support
+\State update histogram information using discrete Bayes filter
+\State new particle weight $w^{[k]}_t = p_0$
+\Else 
+\Comment {update landmark}
+\State $N = N + 1$
+\State check for landmark features if orientations are different
+\State EKF update step for $\hat{c}_t$ as in equations~\ref{ekf_update1}~to~\ref{ekf_update2}
+\For {each $c_t\neq\hat{c}_t$}
+\State $\mu^{[k]}_{i,c_t}=\mu^{[k]}_{i,c_{t-1}}$, $\Sigma^{[k]}_{i,c_t}=\Sigma^{[k]}_{i,c_{t-1}}$
+\EndFor
+\State check geometric constraints with neighbours
+\State EKF update step with measurement $\phi_i-\phi_j=n\cdot\frac{\pi}{2}$
+\State update histogram using discrete Bayes filter
+\State compute new particle weight $w^{[k]}_t$ using equation~\ref{mod_weight} 
+\EndIf
+\State prune histogram from consecutive poses
+\State append $\left\langle s^{[k]}_t, \mu^{[k]}_{1,t},\Sigma^{[k]}_{1,t},\dots,\mu^{[k]}_{N,t},\Sigma^{[k]}_{N,t}\right\rangle$ to $Y_t$
+\EndFor
+\If {$N_{\text{eff}} < N/2$}
+\Comment {Adaptive resampling}
+\State resample with probability $\propto w^{[k]}_t$
+\EndIf
+\EndIf
+\State \Return $Y_t$
+\end{algorithmic}
+\end{algorithm}

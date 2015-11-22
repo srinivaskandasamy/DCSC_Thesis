@@ -1,0 +1,1839 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.16)  26 AUG 2015 11:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mscThesis.tex
+(./mscThesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./mscThesis.cls
+Document Class: mscThesis 12/03/2007 Standard Systems and Control MSc Thesis cl
+ass
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/a4wide/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip58
+\mylen=\skip59
+\myhi=\skip60
+\px=\skip61
+\py=\skip62
+\pyy=\skip63
+\pxx=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen134
+\nom@tempdim=\dimen135
+\nomitemsep=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count106
+\decimalpart=\count107
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\AC@clearlist=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count108
+\lst@gtempboxa=\box28
+\lst@token=\toks27
+\lst@length=\count109
+\lst@currlwidth=\dimen136
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen139
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen140
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count118
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen141
+\Fld@menulength=\count120
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip66
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 1478.
+Package hyperref Info: Option `breaklinks' set `true' on input line 1478.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 147
+8.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1478.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count126
+\c@subtable=\count127
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count128
+\float@exts=\toks28
+\float@box=\box30
+\@float@everytoks=\toks29
+\@floatcapt=\box31
+)
+\@float@every@algorithm=\toks30
+\c@algorithm=\count129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count130
+\c@ALG@rem=\count131
+\c@ALG@nested=\count132
+\ALG@tlm=\skip67
+\ALG@thistlm=\skip68
+\c@ALG@Lnr=\count133
+\c@ALG@blocknr=\count134
+\c@ALG@storecount=\count135
+\c@ALG@tmpcounter=\count136
+\ALG@tmplength=\skip69
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2230.
+LaTeX Info: Redefining \cref on input line 2230.
+LaTeX Info: Redefining \Cref on input line 2230.
+LaTeX Info: Redefining \crefrange on input line 2230.
+LaTeX Info: Redefining \Crefrange on input line 2230.
+LaTeX Info: Redefining \cpageref on input line 2230.
+LaTeX Info: Redefining \Cpageref on input line 2230.
+LaTeX Info: Redefining \cpagerefrange on input line 2230.
+LaTeX Info: Redefining \Cpagerefrange on input line 2230.
+LaTeX Info: Redefining \labelcref on input line 2230.
+LaTeX Info: Redefining \labelcpageref on input line 2230.
+Package cleveref Info: `amsthm' support loaded on input line 2858.
+Package cleveref Info: `algorithmicx' support loaded on input line 2939.
+Package cleveref Info: `listings' support loaded on input line 2950.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@thm=\count137
+\c@rem=\count138
+\c@defn=\count139
+\c@exmp=\count140
+\@nomenclaturefile=\write4
+\openout4 = `mscThesis.nlo'.
+
+
+Writing nomenclature file mscThesis.nlo
+\@indexfile=\write5
+\openout5 = `mscThesis.idx'.
+
+Writing index file mscThesis.idx
+(./mscThesis.aux (./abstract.aux) (./acknowledgements.aux) (./introduction.aux)
+(./problem.aux) (./solution.aux) (./implementation.aux
+
+LaTeX Warning: Label `acro:CI@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:JCBB@cref' multiply defined.
+
+) (./conclusions.aux) (./rbpf.aux) (./modprop.aux) (./impact_SLAM.aux)
+(./glossary.aux))
+\openout1 = `mscThesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 79.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count141
+\scratchdimen=\dimen144
+\scratchbox=\box32
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen145
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box33
+\c@lstlisting=\count147
+Package hyperref Info: Link coloring ON on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count148
+)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
+
+(./mscThesis.out) (./mscThesis.out)
+\@outlinefile=\write6
+\openout6 = `mscThesis.out'.
+
+LaTeX Font Info:    Try loading font information for T1+pbk on input line 87.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pbk.fd
+File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
+)
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <24.88> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 87.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<STYLESTUFF/COVER.jpg, id=229, 2489.3pt x 3521.155pt>
+File: STYLESTUFF/COVER.jpg Graphic file (type jpg)
+
+<use STYLESTUFF/COVER.jpg>
+Package pdftex.def Info: STYLESTUFF/COVER.jpg used on input line 87.
+(pdftex.def)             Requested size: 597.4822pt x 845.04076pt.
+
+<STYLESTUFF/TU_LOGO.png, id=230, 145.71439pt x 42.42851pt>
+File: STYLESTUFF/TU_LOGO.png Graphic file (type png)
+
+<use STYLESTUFF/TU_LOGO.png>
+Package pdftex.def Info: STYLESTUFF/TU_LOGO.png used on input line 87.
+(pdftex.def)             Requested size: 145.714pt x 42.4284pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+ <./STYLESTUFF/COVER.jpg> <./STYLESTUFF/TU_LOGO.png>] [2
+
+]
+LaTeX Font Info:    Try loading font information for OML+lmr on input line 87.
+
+(/usr/share/texmf/tex/latex/lm/omllmr.fd
+File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 87.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OML/lmr/m/it' in size <14.4> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 87.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 87.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 87.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 87.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 87.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 87.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3]
+File: STYLESTUFF/TU_LOGO.png Graphic file (type png)
+
+<use STYLESTUFF/TU_LOGO.png>
+Package pdftex.def Info: STYLESTUFF/TU_LOGO.png used on input line 87.
+(pdftex.def)             Requested size: 145.714pt x 42.4284pt.
+
+<STYLESTUFF/DCSC.png, id=254, 227.6505pt x 72.27pt>
+File: STYLESTUFF/DCSC.png Graphic file (type png)
+ <use STYLESTUFF/DCSC.png>
+Package pdftex.def Info: STYLESTUFF/DCSC.png used on input line 87.
+(pdftex.def)             Requested size: 126.00015pt x 40.0pt.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 87.
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 87.
+ [4 <./STYLESTUFF/DCSC.png>]
+\openout2 = `abstract.aux'.
+
+
+(./abstract.tex
+Package acronym Info: Label `acro:IMU' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+) [1
+
+
+
+] [2
+
+
+] (./mscThesis.toc [3])
+\tf@toc=\write7
+\openout7 = `mscThesis.toc'.
+
+ [4] (./mscThesis.lof [5
+
+
+
+])
+\tf@lof=\write8
+\openout8 = `mscThesis.lof'.
+
+
+[6]
+\openout2 = `acknowledgements.aux'.
+
+ (./acknowledgements.tex
+LaTeX Font Info:    Font shape `OML/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 13.
+) [7
+
+
+
+] [8
+
+
+]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
+Chapter 1.
+[1
+
+
+]
+Package acronym Info: Label `acro:AI' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+Package acronym Info: Label `acro:ICRA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 13.
+ [2] <./images/slam_example1.png, id=513, 846.16125pt x 731.73375pt>
+File: ./images/slam_example1.png Graphic file (type png)
+
+<use ./images/slam_example1.png>
+Package pdftex.def Info: ./images/slam_example1.png used on input line 29.
+(pdftex.def)             Requested size: 253.85033pt x 219.52182pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 33.
+
+<./images/slam_example2.png, id=519, 845.1575pt x 731.73375pt>
+File: ./images/slam_example2.png Graphic file (type png)
+
+<use ./images/slam_example2.png>
+Package pdftex.def Info: ./images/slam_example2.png used on input line 37.
+(pdftex.def)             Requested size: 253.54921pt x 219.52182pt.
+
+<./images/slam_example3.png, id=520, 844.15375pt x 728.7225pt>
+File: ./images/slam_example3.png Graphic file (type png)
+
+<use ./images/slam_example3.png>
+Package pdftex.def Info: ./images/slam_example3.png used on input line 43.
+(pdftex.def)             Requested size: 253.24808pt x 218.61844pt.
+
+<./images/slam_example4.png, id=524, 845.1575pt x 731.73375pt>
+File: ./images/slam_example4.png Graphic file (type png)
+
+<use ./images/slam_example4.png>
+Package pdftex.def Info: ./images/slam_example4.png used on input line 51.
+(pdftex.def)             Requested size: 253.54921pt x 219.52182pt.
+
+<./images/slam_example5.png, id=525, 846.16125pt x 733.74126pt>
+File: ./images/slam_example5.png Graphic file (type png)
+
+<use ./images/slam_example5.png>
+Package pdftex.def Info: ./images/slam_example5.png used on input line 57.
+(pdftex.def)             Requested size: 253.85033pt x 220.12407pt.
+
+<./images/slam_example6.png, id=526, 845.1575pt x 730.73pt>
+File: ./images/slam_example6.png Graphic file (type png)
+
+<use ./images/slam_example6.png>
+Package pdftex.def Info: ./images/slam_example6.png used on input line 63.
+(pdftex.def)             Requested size: 253.54921pt x 219.22069pt.
+ [3 <./images/slam_example1.png>] [4 <./images/slam_example2.png> <./images/sla
+m_example3.png>] [5 <./images/slam_example4.png> <./images/slam_example5.png>]
+<./images/slam_example8.png, id=552, 845.1575pt x 730.73pt>
+File: ./images/slam_example8.png Graphic file (type png)
+
+<use ./images/slam_example8.png>
+Package pdftex.def Info: ./images/slam_example8.png used on input line 72.
+(pdftex.def)             Requested size: 253.54921pt x 219.22069pt.
+
+<./images/slam_example9.png, id=553, 845.1575pt x 733.74126pt>
+File: ./images/slam_example9.png Graphic file (type png)
+
+<use ./images/slam_example9.png>
+Package pdftex.def Info: ./images/slam_example9.png used on input line 79.
+(pdftex.def)             Requested size: 253.54921pt x 220.12407pt.
+ [6 <./images/slam_example6.png>] [7 <./images/slam_example8.png> <./images/sla
+m_example9.png>]
+<./images/network_constraint.pdf, id=571, 653.44125pt x 657.45625pt>
+File: ./images/network_constraint.pdf Graphic file (type pdf)
+
+<use ./images/network_constraint.pdf>
+Package pdftex.def Info: ./images/network_constraint.pdf used on input line 94.
+
+(pdftex.def)             Requested size: 261.37187pt x 262.97784pt.
+ [8 <./images/network_constraint.pdf>]
+Package acronym Info: Label `acro:EKF' newly defined as it shall be overridden
+although it is yet undefined on input line 126.
+
+[9]
+Package acronym Info: Label `acro:MCMC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 168.
+ [10]
+Package acronym Info: Label `acro:RBPF' newly defined as it shall be overridden
+
+although it is yet undefined on input line 174.
+ [11] <./images/fsm.pdf, id=631, 406.53983pt x 240.94717pt>
+File: ./images/fsm.pdf Graphic file (type pdf)
+
+<use ./images/fsm.pdf>
+Package pdftex.def Info: ./images/fsm.pdf used on input line 196.
+(pdftex.def)             Requested size: 365.88245pt x 216.85043pt.
+ [12 <./images/fsm.pdf>]
+<./images/sample_weighting.png, id=661, 883.3pt x 526.96875pt>
+File: ./images/sample_weighting.png Graphic file (type png)
+
+<use ./images/sample_weighting.png>
+Package pdftex.def Info: ./images/sample_weighting.png used on input line 229.
+(pdftex.def)             Requested size: 353.31374pt x 210.78375pt.
+ [13]
+<./images/fastslam2.png, id=685, 950.55125pt x 372.39125pt>
+File: ./images/fastslam2.png Graphic file (type png)
+
+<use ./images/fastslam2.png>
+Package pdftex.def Info: ./images/fastslam2.png used on input line 270.
+(pdftex.def)             Requested size: 380.21376pt x 148.95386pt.
+ [14 <./images/sample_weighting.png>] [15 <./images/fastslam2.png>] [16]) [17]
+\openout2 = `problem.aux'.
+
+ (./problem.tex [18
+
+
+
+]
+Chapter 2.
+[19]
+Package acronym Info: Label `acro:DBN' newly defined as it shall be overridden
+although it is yet undefined on input line 34.
+ <./images/fsm2.pdf, id=737, 408.24622pt x 256.31158pt>
+File: ./images/fsm2.pdf Graphic file (type pdf)
+
+<use ./images/fsm2.pdf>
+Package pdftex.def Info: ./images/fsm2.pdf used on input line 38.
+(pdftex.def)             Requested size: 367.41818pt x 230.67828pt.
+ <./images/fsm3.pdf, id=738, 408.24622pt x 256.31158pt>
+File: ./images/fsm3.pdf Graphic file (type pdf)
+
+<use ./images/fsm3.pdf>
+Package pdftex.def Info: ./images/fsm3.pdf used on input line 45.
+(pdftex.def)             Requested size: 367.41818pt x 230.67828pt.
+ [20] [21 <./images/fsm2.pdf> <./images/fsm3.pdf>]
+Overfull \hbox (5.65776pt too wide) in paragraph at lines 75--76
+[]\T1/lmr/m/n/10.95 The state tran-si-tion model and ob-ser-va-tion model char-
+ac-ter-izes the con-nec-tiv-ity of the Bayesian
+ []
+
+[22] [23] [24] <./images/vel_model.pdf, id=809, 580.53986pt x 186.35823pt>
+File: ./images/vel_model.pdf Graphic file (type pdf)
+
+<use ./images/vel_model.pdf>
+Package pdftex.def Info: ./images/vel_model.pdf used on input line 159.
+(pdftex.def)             Requested size: 435.40382pt x 139.76833pt.
+
+<./images/odom_model.pdf, id=810, 452.16728pt x 214.21129pt>
+File: ./images/odom_model.pdf Graphic file (type pdf)
+
+<use ./images/odom_model.pdf>
+Package pdftex.def Info: ./images/odom_model.pdf used on input line 166.
+(pdftex.def)             Requested size: 339.12463pt x 160.65807pt.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 176.
+ [25 <./images/vel_model.pdf> <./images/odom_model.pdf>] <./images/odometry_mot
+ion.png, id=841, 1105.12875pt x 667.49374pt>
+File: ./images/odometry_motion.png Graphic file (type png)
+
+<use ./images/odometry_motion.png>
+Package pdftex.def Info: ./images/odometry_motion.png used on input line 200.
+(pdftex.def)             Requested size: 221.02184pt x 133.49638pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.ca
+ption.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.233 \begin{equation*}
+                        <./images/odometry_motion.png>] [27pdfTeX warning (ext4
+): destination with the same identifier (name{figure.caption.32}) has been alre
+ady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      pdfTeX warning (ext4): destination with the same identifier (name{ALG@lin
+e.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.247 
+      ] [28]
+<./images/ex1_pointlandmark.pdf, id=884, 753.81625pt x 336.25626pt>
+File: ./images/ex1_pointlandmark.pdf Graphic file (type pdf)
+
+<use ./images/ex1_pointlandmark.pdf>
+Package pdftex.def Info: ./images/ex1_pointlandmark.pdf used on input line 284.
+
+(pdftex.def)             Requested size: 376.90721pt x 168.12772pt.
+ [29]
+<./images/ex1_scalepointlandmark.pdf, id=897, 814.04124pt x 336.25626pt>
+File: ./images/ex1_scalepointlandmark.pdf Graphic file (type pdf)
+
+<use ./images/ex1_scalepointlandmark.pdf>
+Package pdftex.def Info: ./images/ex1_scalepointlandmark.pdf used on input line
+ 299.
+(pdftex.def)             Requested size: 407.01962pt x 168.12772pt.
+ [30 <./images/ex1_pointlandmark.pdf> <./images/ex1_scalepointlandmark.pdf>]
+Package acronym Info: Label `acro:CI' newly defined as it shall be overridden
+although it is yet undefined on input line 316.
+
+<./images/actual_wall.png, id=919, 493.6041pt x 45.5301pt>
+File: ./images/actual_wall.png Graphic file (type png)
+
+<use ./images/actual_wall.png>
+Package pdftex.def Info: ./images/actual_wall.png used on input line 333.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/gaussian_wall.png, id=920, 462.528pt x 187.902pt>
+File: ./images/gaussian_wall.png Graphic file (type png)
+
+<use ./images/gaussian_wall.png>
+Package pdftex.def Info: ./images/gaussian_wall.png used on input line 337.
+(pdftex.def)             Requested size: 185.0079pt x 75.15945pt.
+ [31] [32 <./images/actual_wall.png> <./images/gaussian_wall.png>]
+<./images/wall_example3.png, id=948, 493.6041pt x 45.5301pt>
+File: ./images/wall_example3.png Graphic file (type png)
+
+<use ./images/wall_example3.png>
+Package pdftex.def Info: ./images/wall_example3.png used on input line 372.
+(pdftex.def)             Requested size: 222.11978pt x 20.48834pt.
+ [33 <./images/wall_example3.png>]
+<./images/ex24/ex24coll10.png, id=957, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll10.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll10.png>
+Package pdftex.def Info: ./images/ex24/ex24coll10.png used on input line 385.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24coll10_1.png, id=958, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll10_1.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll10_1.png>
+Package pdftex.def Info: ./images/ex24/ex24coll10_1.png used on input line 390.
+
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+File: ./images/ex24/ex24coll10.png Graphic file (type png)
+ <use ./images/ex24/ex24coll10.png>
+Package pdftex.def Info: ./images/ex24/ex24coll10.png used on input line 405.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall10.png, id=960, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall10.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall10.png>
+Package pdftex.def Info: ./images/ex24/ex24wall10.png used on input line 409.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll4.png, id=961, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll4.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll4.png>
+Package pdftex.def Info: ./images/ex24/ex24coll4.png used on input line 417.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall4.png, id=962, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall4.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall4.png>
+Package pdftex.def Info: ./images/ex24/ex24wall4.png used on input line 421.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll12.png, id=963, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll12.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll12.png>
+Package pdftex.def Info: ./images/ex24/ex24coll12.png used on input line 430.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall12.png, id=964, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall12.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall12.png>
+Package pdftex.def Info: ./images/ex24/ex24wall12.png used on input line 434.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll13.png, id=965, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll13.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll13.png>
+Package pdftex.def Info: ./images/ex24/ex24coll13.png used on input line 442.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall13.png, id=966, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall13.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall13.png>
+Package pdftex.def Info: ./images/ex24/ex24wall13.png used on input line 446.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll1.png, id=967, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll1.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll1.png>
+Package pdftex.def Info: ./images/ex24/ex24coll1.png used on input line 455.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall1.png, id=968, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall1.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall1.png>
+Package pdftex.def Info: ./images/ex24/ex24wall1.png used on input line 459.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll5.png, id=969, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll5.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll5.png>
+Package pdftex.def Info: ./images/ex24/ex24coll5.png used on input line 467.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall5.png, id=970, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall5.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall5.png>
+Package pdftex.def Info: ./images/ex24/ex24wall5.png used on input line 471.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll9.png, id=971, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll9.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll9.png>
+Package pdftex.def Info: ./images/ex24/ex24coll9.png used on input line 480.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall9.png, id=972, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall9.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall9.png>
+Package pdftex.def Info: ./images/ex24/ex24wall9.png used on input line 484.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll6.png, id=973, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll6.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll6.png>
+Package pdftex.def Info: ./images/ex24/ex24coll6.png used on input line 492.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall6.png, id=974, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall6.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall6.png>
+Package pdftex.def Info: ./images/ex24/ex24wall6.png used on input line 496.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll7.png, id=975, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll7.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll7.png>
+Package pdftex.def Info: ./images/ex24/ex24coll7.png used on input line 505.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall7.png, id=976, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall7.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall7.png>
+Package pdftex.def Info: ./images/ex24/ex24wall7.png used on input line 509.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll19.png, id=977, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll19.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll19.png>
+Package pdftex.def Info: ./images/ex24/ex24coll19.png used on input line 517.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall19.png, id=978, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall19.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall19.png>
+Package pdftex.def Info: ./images/ex24/ex24wall19.png used on input line 521.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+
+<./images/ex24/ex24coll15.png, id=980, 462.528pt x 204.5241pt>
+File: ./images/ex24/ex24coll15.png Graphic file (type png)
+
+<use ./images/ex24/ex24coll15.png>
+Package pdftex.def Info: ./images/ex24/ex24coll15.png used on input line 534.
+(pdftex.def)             Requested size: 185.0079pt x 81.80817pt.
+
+<./images/ex24/ex24wall15.png, id=981, 493.6041pt x 45.5301pt>
+File: ./images/ex24/ex24wall15.png Graphic file (type png)
+
+<use ./images/ex24/ex24wall15.png>
+Package pdftex.def Info: ./images/ex24/ex24wall15.png used on input line 538.
+(pdftex.def)             Requested size: 197.43813pt x 18.2117pt.
+ [34 <./images/ex24/ex24coll10.png> <./images/ex24/ex24coll10_1.png>] [35 <./im
+ages/ex24/ex24wall10.png> <./images/ex24/ex24coll4.png> <./images/ex24/ex24wall
+4.png> <./images/ex24/ex24coll12.png> <./images/ex24/ex24wall12.png> <./images/
+ex24/ex24coll13.png> <./images/ex24/ex24wall13.png> <./images/ex24/ex24coll1.pn
+g> <./images/ex24/ex24wall1.png> <./images/ex24/ex24coll5.png> <./images/ex24/e
+x24wall5.png> <./images/ex24/ex24coll9.png> <./images/ex24/ex24wall9.png> <./im
+ages/ex24/ex24coll6.png> <./images/ex24/ex24wall6.png> <./images/ex24/ex24coll7
+.png> <./images/ex24/ex24wall7.png> <./images/ex24/ex24coll19.png> <./images/ex
+24/ex24wall19.png>] [36 <./images/ex24/ex24coll15.png> <./images/ex24/ex24wall1
+5.png>]
+<./images/wall_robot.png, id=1029, 462.528pt x 476.982pt>
+File: ./images/wall_robot.png Graphic file (type png)
+
+<use ./images/wall_robot.png>
+Package pdftex.def Info: ./images/wall_robot.png used on input line 616.
+(pdftex.def)             Requested size: 115.63171pt x 119.2452pt.
+
+<./images/wall_onrobot.png, id=1030, 462.528pt x 476.982pt>
+File: ./images/wall_onrobot.png Graphic file (type png)
+
+<use ./images/wall_onrobot.png>
+Package pdftex.def Info: ./images/wall_onrobot.png used on input line 622.
+(pdftex.def)             Requested size: 115.63171pt x 119.2452pt.
+
+<./images/wall_robotp.png, id=1031, 462.528pt x 476.982pt>
+File: ./images/wall_robotp.png Graphic file (type png)
+
+<use ./images/wall_robotp.png>
+Package pdftex.def Info: ./images/wall_robotp.png used on input line 628.
+(pdftex.def)             Requested size: 115.63171pt x 119.2452pt.
+ [37] [38 <./images/wall_robot.png> <./images/wall_onrobot.png> <./images/wall_
+robotp.png>] [39] [40]
+Package acronym Info: Label `acro:ML' newly defined as it shall be overridden
+although it is yet undefined on input line 695.
+Package acronym Info: Label `acro:JCBB' newly defined as it shall be overridden
+
+although it is yet undefined on input line 695.
+ [41]) [42]
+\openout2 = `solution.aux'.
+
+ (./solution.tex
+Chapter 3.
+[43
+
+
+
+] <./images/flow_fs.pdf, id=1125, 525.95998pt x 655.22893pt>
+File: ./images/flow_fs.pdf Graphic file (type pdf)
+
+<use ./images/flow_fs.pdf>
+Package pdftex.def Info: ./images/flow_fs.pdf used on input line 43.
+(pdftex.def)             Requested size: 473.35959pt x 589.70059pt.
+
+Overfull \hbox (30.70584pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+[44] [45 <./images/flow_fs.pdf>] [46]
+Package acronym Info: Label `acro:FSM' newly defined as it shall be overridden
+although it is yet undefined on input line 81.
+
+<./images/fsm4.pdf, id=1164, 552.5493pt x 324.92792pt>
+File: ./images/fsm4.pdf Graphic file (type pdf)
+ <use ./images/fsm4.pdf>
+Package pdftex.def Info: ./images/fsm4.pdf used on input line 85.
+(pdftex.def)             Requested size: 414.41095pt x 243.69533pt.
+
+<./images/collision_ball.pdf, id=1169, 629.35126pt x 456.70625pt>
+File: ./images/collision_ball.pdf Graphic file (type pdf)
+
+<use ./images/collision_ball.pdf>
+Package pdftex.def Info: ./images/collision_ball.pdf used on input line 92.
+(pdftex.def)             Requested size: 377.61366pt x 274.02585pt.
+ [47 <./images/fsm4.pdf>] [48 <./images/collision_ball.pdf>] [49]pdfTeX warning
+ (ext4): destination with the same identifier (name{ALG@line.1}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.135 \BState
+              \textbf{Input}: $z_t$, $R_t$ , $Y_t$ and $m_{1:N}$pdfTeX warning 
+(ext4): destination with the same identifier (name{ALG@line.2}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.136 \For
+          {each particle \Pisymbol{psy}{206} $Y_t$}pdfTeX warning (ext4): desti
+nation with the same identifier (name{ALG@line.3}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.137 \State
+             $l \gets \left[\,\right]$pdfTeX warning (ext4): destination with t
+he same identifier (name{ALG@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.138 \For
+          {each landmark \Pisymbol{psy}{206} $m_{1:N}$}pdfTeX warning (ext4): d
+estination with the same identifier (name{ALG@line.5}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.139 \State
+             compute expected measurementpdfTeX warning (ext4): destination wit
+h the same identifier (name{ALG@line.6}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.140 \If
+          {geometric constraint not satisfied}pdfTeX warning (ext4): destinatio
+n with the same identifier (name{ALG@line.7}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.141 \State
+             $l$.append(0)pdfTeX warning (ext4): destination with the same iden
+tifier (name{ALG@line.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143 \If
+          {landmark in robot's view}pdfTeX warning (ext4): destination with the
+ same identifier (name{ALG@line.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \State
+             compute likelihoodpdfTeX warning (ext4): destination with the same
+ identifier (name{ALG@line.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.145 \State
+             $l$.append(likelihood)pdfTeX warning (ext4): destination with the 
+same identifier (name{ALG@line.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.146 \ElsIf
+             {check similar features}pdfTeX warning (ext4): destination with th
+e same identifier (name{ALG@line.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.147 \State
+             create feature if not present in landmark listpdfTeX warning (ext4
+): destination with the same identifier (name{ALG@line.13}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 \State
+             compute likelihoodpdfTeX warning (ext4): destination with the same
+ identifier (name{ALG@line.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 \State
+             $l$.append(likelihood) [50pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.caption.50}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 T
+       he landmark update stage is a part of the mapping problem, described ...
+] [51] [52] <./images/add_landmark.pdf, id=1283, 442.65375pt x 426.59375pt>
+File: ./images/add_landmark.pdf Graphic file (type pdf)
+
+<use ./images/add_landmark.pdf>
+Package pdftex.def Info: ./images/add_landmark.pdf used on input line 253.
+(pdftex.def)             Requested size: 177.05835pt x 170.63446pt.
+
+<./images/fsm7.pdf, id=1284, 426.21333pt x 249.8093pt>
+File: ./images/fsm7.pdf Graphic file (type pdf)
+ <use ./images/fsm7.pdf>
+Package pdftex.def Info: ./images/fsm7.pdf used on input line 259.
+(pdftex.def)             Requested size: 426.21228pt x 249.80867pt.
+
+[53] [54 <./images/add_landmark.pdf> <./images/fsm7.pdf>]
+Package acronym Info: Label `acro:SIR' newly defined as it shall be overridden
+although it is yet undefined on input line 275.
+ [55]
+<./images/sample_world.pdf, id=1329, 553.06625pt x 553.06625pt>
+File: ./images/sample_world.pdf Graphic file (type pdf)
+
+<use ./images/sample_world.pdf>
+Package pdftex.def Info: ./images/sample_world.pdf used on input line 290.
+(pdftex.def)             Requested size: 221.22258pt x 221.22258pt.
+
+<./images/odom_error.pdf, id=1333, 462.52798pt x 476.98201pt>
+File: ./images/odom_error.pdf Graphic file (type pdf)
+
+<use ./images/odom_error.pdf>
+Package pdftex.def Info: ./images/odom_error.pdf used on input line 300.
+(pdftex.def)             Requested size: 208.13567pt x 214.63991pt.
+
+<./images/odom_error2.pdf, id=1334, 462.52798pt x 476.98201pt>
+File: ./images/odom_error2.pdf Graphic file (type pdf)
+
+<use ./images/odom_error2.pdf>
+Package pdftex.def Info: ./images/odom_error2.pdf used on input line 306.
+(pdftex.def)             Requested size: 208.13567pt x 214.63991pt.
+ [56 <./images/sample_world.pdf>] [57 <./images/odom_error.pdf> <./images/odom_
+error2.pdf
+
+pdfTeX warning: pdflatex (file ./images/odom_error2.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+Overfull \hbox (2.46751pt too wide) in paragraph at lines 325--326
+[][]\T1/lmr/bx/n/10.95 Remark 3.6. []\T1/lmr/m/it/10.95 Data as-so-ci-a-tion wa
+s achieved suc-cess-fully in a his-togram land-mark case through
+ []
+
+<./images/num_landmark.pdf, id=1395, 518.64389pt x 524.38568pt>
+File: ./images/num_landmark.pdf Graphic file (type pdf)
+
+<use ./images/num_landmark.pdf>
+Package pdftex.def Info: ./images/num_landmark.pdf used on input line 331.
+(pdftex.def)             Requested size: 259.3213pt x 262.1922pt.
+
+<./images/cov_wc22.pdf, id=1398, 1191.743pt x 285.83662pt>
+File: ./images/cov_wc22.pdf Graphic file (type pdf)
+
+<use ./images/cov_wc22.pdf>
+Package pdftex.def Info: ./images/cov_wc22.pdf used on input line 339.
+(pdftex.def)             Requested size: 442.65375pt x 106.16788pt.
+ [58 <./images/num_landmark.pdf>]
+<./images/cov_wc21.pdf, id=1442, 1191.743pt x 285.83662pt>
+File: ./images/cov_wc21.pdf Graphic file (type pdf)
+
+<use ./images/cov_wc21.pdf>
+Package pdftex.def Info: ./images/cov_wc21.pdf used on input line 348.
+(pdftex.def)             Requested size: 442.65375pt x 106.16788pt.
+
+<./images/hist_coll.pdf, id=1447, 1198.39284pt x 1589.99808pt>
+File: ./images/hist_coll.pdf Graphic file (type pdf)
+
+<use ./images/hist_coll.pdf>
+Package pdftex.def Info: ./images/hist_coll.pdf used on input line 356.
+(pdftex.def)             Requested size: 442.65375pt x 587.29538pt.
+ [59 <./images/cov_wc22.pdf> <./images/cov_wc21.pdf
+
+pdfTeX warning: pdflatex (file ./images/cov_wc21.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>] <./images/hist_coll2.pdf, id=1532, 1198.54967pt x 1589.99808pt>
+File: ./images/hist_coll2.pdf Graphic file (type pdf)
+
+<use ./images/hist_coll2.pdf>
+Package pdftex.def Info: ./images/hist_coll2.pdf used on input line 363.
+(pdftex.def)             Requested size: 442.65375pt x 587.2226pt.
+
+<./images/hist_coll3.pdf, id=1533, 1198.54967pt x 1589.99808pt>
+File: ./images/hist_coll3.pdf Graphic file (type pdf)
+
+<use ./images/hist_coll3.pdf>
+Package pdftex.def Info: ./images/hist_coll3.pdf used on input line 370.
+(pdftex.def)             Requested size: 442.65375pt x 587.2226pt.
+
+<./images/hist_map.pdf, id=1534, 750.58855pt x 741.27722pt>
+File: ./images/hist_map.pdf Graphic file (type pdf)
+
+<use ./images/hist_map.pdf>
+Package pdftex.def Info: ./images/hist_map.pdf used on input line 377.
+(pdftex.def)             Requested size: 225.1783pt x 222.38489pt.
+
+<./images/merge_map.pdf, id=1536, 481.40314pt x 469.77255pt>
+File: ./images/merge_map.pdf Graphic file (type pdf)
+
+<use ./images/merge_map.pdf>
+Package pdftex.def Info: ./images/merge_map.pdf used on input line 397.
+(pdftex.def)             Requested size: 288.8441pt x 281.86569pt.
+) [60] [61 <./images/hist_coll.pdf>] [62 <./images/hist_coll2.pdf>] [63 <./imag
+es/hist_coll3.pdf>] [64 <./images/hist_map.pdf> <./images/merge_map.pdf
+
+pdfTeX warning: pdflatex (file ./images/merge_map.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
+\openout2 = `implementation.aux'.
+
+ (./implementation.tex
+Chapter 4.
+<./images/sphero_revealed.jpeg, id=1616, 401.5pt x 401.5pt>
+File: ./images/sphero_revealed.jpeg Graphic file (type jpg)
+
+<use ./images/sphero_revealed.jpeg>
+Package pdftex.def Info: ./images/sphero_revealed.jpeg used on input line 9.
+(pdftex.def)             Requested size: 100.37474pt x 100.37474pt.
+Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
+ [65
+
+
+
+ <./images/sphero_revealed.jpeg>]
+<./images/acc_data.pdf, id=1631, 911.86926pt x 293.12164pt>
+File: ./images/acc_data.pdf Graphic file (type pdf)
+
+<use ./images/acc_data.pdf>
+Package pdftex.def Info: ./images/acc_data.pdf used on input line 37.
+(pdftex.def)             Requested size: 364.74124pt x 117.24657pt.
+
+<./images/acc_data2.pdf, id=1632, 911.86926pt x 293.12164pt>
+File: ./images/acc_data2.pdf Graphic file (type pdf)
+
+<use ./images/acc_data2.pdf>
+Package pdftex.def Info: ./images/acc_data2.pdf used on input line 43.
+(pdftex.def)             Requested size: 364.74124pt x 117.24657pt.
+ [66 <./images/acc_data.pdf>] [67 <./images/acc_data2.pdf>] <./images/maze.jpg,
+ id=1730, 3276.24pt x 2457.18pt>
+File: ./images/maze.jpg Graphic file (type jpg)
+
+<use ./images/maze.jpg>
+Package pdftex.def Info: ./images/maze.jpg used on input line 67.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+<./images/single_lcmap.pdf, id=1731, 925.91478pt x 921.81265pt>
+File: ./images/single_lcmap.pdf Graphic file (type pdf)
+
+<use ./images/single_lcmap.pdf>
+Package pdftex.def Info: ./images/single_lcmap.pdf used on input line 74.
+(pdftex.def)             Requested size: 231.47812pt x 230.45259pt.
+ [68 <./images/maze.jpg>]
+<./images/landmark_wn.pdf, id=1743, 1237.62375pt x 627.84563pt>
+File: ./images/landmark_wn.pdf Graphic file (type pdf)
+
+<use ./images/landmark_wn.pdf>
+Package pdftex.def Info: ./images/landmark_wn.pdf used on input line 85.
+(pdftex.def)             Requested size: 495.04074pt x 251.13379pt.
+
+Overfull \hbox (23.93425pt too wide) in paragraph at lines 85--86
+ []| [] 
+ []
+
+[69 <./images/single_lcmap.pdf>]
+Package acronym Info: Label `acro:CI' overridden on input line 101.
+
+<./images/landmark_cilc.pdf, id=1792, 1237.62375pt x 627.84563pt>
+File: ./images/landmark_cilc.pdf Graphic file (type pdf)
+
+<use ./images/landmark_cilc.pdf>
+Package pdftex.def Info: ./images/landmark_cilc.pdf used on input line 107.
+(pdftex.def)             Requested size: 495.04074pt x 251.13379pt.
+
+Overfull \hbox (23.93425pt too wide) in paragraph at lines 107--108
+ []| [] 
+ []
+
+<./images/landmark_ci.pdf, id=1793, 1237.62375pt x 627.84563pt>
+File: ./images/landmark_ci.pdf Graphic file (type pdf)
+
+<use ./images/landmark_ci.pdf>
+Package pdftex.def Info: ./images/landmark_ci.pdf used on input line 114.
+(pdftex.def)             Requested size: 495.04074pt x 251.13379pt.
+
+Overfull \hbox (23.93425pt too wide) in paragraph at lines 114--115
+ []| [] 
+ []
+
+[70 <./images/landmark_wn.pdf>] [71 <./images/landmark_cilc.pdf> <./images/land
+mark_ci.pdf
+
+pdfTeX warning: pdflatex (file ./images/landmark_ci.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+Package acronym Info: Label `acro:JCBB' overridden on input line 123.
+ <./images/single_map.pdf, id=1928, 918.89551pt x 921.81265pt>
+File: ./images/single_map.pdf Graphic file (type pdf)
+
+<use ./images/single_map.pdf>
+Package pdftex.def Info: ./images/single_map.pdf used on input line 127.
+(pdftex.def)             Requested size: 229.72331pt x 230.45259pt.
+ [72 <./images/single_map.pdf>] [73]
+<./images/mmap1.pdf, id=1985, 909.31284pt x 921.81265pt>
+File: ./images/mmap1.pdf Graphic file (type pdf)
+
+<use ./images/mmap1.pdf>
+Package pdftex.def Info: ./images/mmap1.pdf used on input line 159.
+(pdftex.def)             Requested size: 181.85934pt x 184.35925pt.
+
+<./images/mmap2.pdf, id=1986, 909.31284pt x 921.81265pt>
+File: ./images/mmap2.pdf Graphic file (type pdf)
+
+<use ./images/mmap2.pdf>
+Package pdftex.def Info: ./images/mmap2.pdf used on input line 165.
+(pdftex.def)             Requested size: 181.85934pt x 184.35925pt.
+
+<./images/mmap3.pdf, id=1987, 909.31284pt x 921.81265pt>
+File: ./images/mmap3.pdf Graphic file (type pdf)
+
+<use ./images/mmap3.pdf>
+Package pdftex.def Info: ./images/mmap3.pdf used on input line 173.
+(pdftex.def)             Requested size: 227.32765pt x 230.45259pt.
+
+<./images/mmap4.pdf, id=1988, 906.78778pt x 921.81265pt>
+File: ./images/mmap4.pdf Graphic file (type pdf)
+
+<use ./images/mmap4.pdf>
+Package pdftex.def Info: ./images/mmap4.pdf used on input line 180.
+(pdftex.def)             Requested size: 226.69638pt x 230.45259pt.
+) [74 <./images/mmap1.pdf> <./images/mmap2.pdf
+
+pdfTeX warning: pdflatex (file ./images/mmap2.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>] [75 <./images/mmap3.pdf> <./images/mmap4.pdf
+
+pdfTeX warning: pdflatex (file ./images/mmap4.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>]
+\openout2 = `conclusions.aux'.
+
+ (./conclusions.tex [76
+
+
+
+]
+Chapter 5.
+[77]
+Overfull \hbox (1.38554pt too wide) in paragraph at lines 22--30
+ [][] 
+ []
+
+) [78] [79]
+\openout2 = `rbpf.aux'.
+
+ (./rbpf.tex [80
+
+
+
+]
+Appendix A.
+[81]) [82]
+\openout2 = `modprop.aux'.
+
+ (./modprop.tex
+Appendix B.
+[83
+
+
+
+] [84]) [85]
+\openout2 = `impact_SLAM.aux'.
+
+ (./impact_SLAM.tex [86
+
+
+
+]
+Appendix C.
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 \BState
+             \textbf{Input}: $Y_{t-1}$, $z_t$, $P_t$, $R_t$, $u_t$, $p_0$pdfTeX
+ warning (ext4): destination with the same identifier (name{ALG@line.2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \State
+            $Y_{t} = \emptyset$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALG@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \If
+         {measurement is not available at $t$}pdfTeX warning (ext4): destinatio
+n with the same identifier (name{ALG@line.4}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.22 \For
+         {each particle $k$ \Pisymbol{psy}{206} $Y_t$}pdfTeX warning (ext4): de
+stination with the same identifier (name{ALG@line.5}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.23 \State
+            calculate proposal $s^{[k]}_t\sim\mathcal{N}\left(s_t|s_{t-1},u_...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \State
+            landmark estimates unchanged $\mu^{[k]}_{i,c_t}=\mu^{[k]}_{i,c_{...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.7}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \State
+             append $\left\langle s^{[k]}_t, \mu^{[k]}_{1,t},\Sigma^{[k]}_{1...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.8}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \Else
+          pdfTeX warning (ext4): destination with the same identifier (name{ALG
+@line.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \For
+         {each particle $k$ \Pisymbol{psy}{206} $Y_t$}pdfTeX warning (ext4): de
+stination with the same identifier (name{ALG@line.10}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \For
+          {each $c_t$ \Pisymbol{psy}{206} $N$}pdfTeX warning (ext4): destinatio
+n with the same identifier (name{ALG@line.11}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.30 \State
+            compute equations~\ref{mod_mean} and \ref{mod_cov} for given $c_...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.12})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \State
+            calculate modified proposal $s^{[k]}_{t,c_t}\sim\mathcal{N}\left...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.13})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \State
+            calculate likelihood for $c_t$: $d^{[k]}_{c_t}=|2\pi Z_{t,c_t}|^...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.14})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \State
+            Compute most likely landmark $\hat{c}_t$pdfTeX warning (ext4): dest
+ination with the same identifier (name{ALG@line.15}) has been already used, dup
+licate ignored
+<to be read again> 
+                   \relax 
+l.36 \If
+         {all likelihoods less than $p_0$}pdfTeX warning (ext4): destination wi
+th the same identifier (name{ALG@line.16}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.38 \State
+            compute mean and covariance from equations~\ref{landmark_init1}~...
+pdfTeX warning (ext4): destination with the same identifier (name{ALG@line.17})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \State
+            append estimate to particle $Y^{[k]}_{t-1}$) [87] [88]
+(./mscThesis.bbl [89
+
+
+
+
+] [90]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 146.
+
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) [91]
+[92
+
+]
+\openout2 = `glossary.aux'.
+
+ (./glossary.tex [93
+
+
+] (./mscThesis.nls)) [94] (./mscThesis.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+
+(./mscThesis.aux (./abstract.aux) (./acknowledgements.aux) (./introduction.aux)
+(./problem.aux) (./solution.aux) (./implementation.aux) (./conclusions.aux)
+(./rbpf.aux) (./modprop.aux) (./impact_SLAM.aux) (./glossary.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package rerunfilecheck Info: File `mscThesis.out' has not changed.
+(rerunfilecheck)             Checksum: 98069D779BE9E1A9A460B772897D1C56;3817.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+ ) 
+Here is how much of TeX's memory you used:
+ 14179 strings out of 493304
+ 222009 string characters out of 6139871
+ 321606 words of memory out of 5000000
+ 16745 multiletter control sequences out of 15000+600000
+ 148846 words of font info for 98 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 43i,15n,55p,1523b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+ssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/bookman/ubkl8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/symbol/usyr.pfb>
+Output written on mscThesis.pdf (106 pages, 5610634 bytes).
+PDF statistics:
+ 2516 PDF objects out of 2984 (max. 8388607)
+ 1724 compressed objects within 18 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 849 words of extra memory for PDF output out of 10000 (max. 10000000)
+

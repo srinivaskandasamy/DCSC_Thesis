@@ -1,0 +1,69 @@
+\begin{thenomenclature} 
+
+ \nomgroup{B}
+
+  \item [{$\alpha $}]\begingroup \MakeUppercase Robot heading control\nomeqref {2-23}
+		\nompageref{37}
+  \item [{$\mu _t$}]\begingroup \MakeUppercase Mean of state estimate at time $t$\nomeqref {1-4}
+		\nompageref{10}
+  \item [{$\nabla (\cdot )$}]\begingroup \MakeUppercase Jacobian of a function\nomeqref {1-10}
+		\nompageref{10}
+  \item [{$\psi ^{[k]}_r$}]\begingroup \MakeUppercase Orientation of particle pose\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$\psi _l$}]\begingroup \MakeUppercase Orientation of landmark\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$\theta $}]\begingroup \MakeUppercase Robot orientation\nomeqref {2-0}
+		\nompageref{19}
+
+ \nomgroup{C}
+
+  \item [{$(x^{[k]}_r,y^{[k]}_r)$}]\begingroup \MakeUppercase XY- position of $k^{\text {th}}$ particle pose\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$(x_l,y_l)$}]\begingroup \MakeUppercase XY-position of landmark\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$a_x$}]\begingroup \MakeUppercase Rate of acceleration along the X axis\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$a_y$}]\begingroup \MakeUppercase Rate of acceleration along the Y axis\nomeqref {3-19}
+		\nompageref{55}
+  \item [{$c_{1:t}$}]\begingroup \MakeUppercase Time history of data associations\nomeqref {1-1}
+		\nompageref{8}
+  \item [{$f(\cdot )$}]\begingroup \MakeUppercase State transition model\nomeqref {1-3}
+		\nompageref{9}
+  \item [{$G_{m_{l,t}}$}]\begingroup \MakeUppercase Jacobian of measurement model over landmark pose\nomeqref {3-10}
+		\nompageref{53}
+  \item [{$G_{s^{[k]}_t}$}]\begingroup \MakeUppercase Jacobian of measurement model over particle pose\nomeqref {3-10}
+		\nompageref{53}
+  \item [{$h(\cdot )$}]\begingroup \MakeUppercase Observation model\nomeqref {1-4}
+		\nompageref{10}
+  \item [{$K_t$}]\begingroup \MakeUppercase Kalman gain at time $t$\nomeqref {1-10}
+		\nompageref{10}
+  \item [{$m$}]\begingroup \MakeUppercase Map of an environment\nomeqref {1-1}
+		\nompageref{8}
+  \item [{$N$}]\begingroup \MakeUppercase Number of landmarks\nomeqref {1-10}
+		\nompageref{10}
+  \item [{$P_t$}]\begingroup \MakeUppercase Covariance of state estimate at time $t$\nomeqref {1-4}
+		\nompageref{10}
+  \item [{$Q_t$}]\begingroup \MakeUppercase Process noise covariance at time $t$\nomeqref {1-3}
+		\nompageref{9}
+  \item [{$R_t$}]\begingroup \MakeUppercase Observation noise covariance\nomeqref {1-4}
+		\nompageref{10}
+  \item [{$S_t$}]\begingroup \MakeUppercase Innovation covariance at time $t$\nomeqref {1-10}
+		\nompageref{10}
+  \item [{$s_t$}]\begingroup \MakeUppercase Robot pose at time $t$\nomeqref {1-1}
+		\nompageref{8}
+  \item [{$S_{l,t}$}]\begingroup \MakeUppercase Innovation covariance\nomeqref {3-18}
+		\nompageref{54}
+  \item [{$t$}]\begingroup \MakeUppercase Continuous time index\nomeqref {1-3}
+		\nompageref{9}
+  \item [{$u_{1:t}$}]\begingroup \MakeUppercase Time history of control inputs\nomeqref {1-1}
+		\nompageref{8}
+  \item [{$v$}]\begingroup \MakeUppercase Robot velocity control\nomeqref {2-23}
+		\nompageref{37}
+  \item [{$v_t$}]\begingroup \MakeUppercase Observation noise\nomeqref {1-4}
+		\nompageref{10}
+  \item [{$w_t$}]\begingroup \MakeUppercase Process noise\nomeqref {1-3}
+		\nompageref{9}
+  \item [{$z_{1:t}$}]\begingroup \MakeUppercase Time history of observations\nomeqref {1-1}
+		\nompageref{8}
+
+\end{thenomenclature}

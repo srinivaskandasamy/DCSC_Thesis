@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, calc}
+
+% Defining environment
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{50pt}%
+
+\tikzstyle{block} = [rectangle, draw=black, fill=orange!30,
+    text width=8em, text centered, rounded corners, minimum width=5em, minimum height=1cm]
+\tikzstyle{line} = [draw, very thick, color=black!70, -latex']
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, text width=4em,
+minimum width=2em, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{map} = [rectangle, draw=black, fill=red!60,text width=6em, text centered, rounded corners, minimum width=3cm, minimum height=2cm]
+
+\begin{document}
+\begin{tikzpicture}[scale=2, node distance = 2.5cm, auto]
+	\node[io](input){Input};
+	\node[block, right of=input,xshift=2cm](robot){Robot model};
+	\node[block, right of=robot,xshift=2cm](SLAM){SLAM algorithm};
+	\node[map, right of=SLAM,xshift=2cm](Output){Map and Robot trajectory};
+	
+	
+	\path[line] (input) -- node[anchor=south]{u}(robot) ;	
+	\path[line] (robot) -- node[anchor=south]{y}(SLAM);
+	\path[line] (SLAM) -- (Output);
+	\path[line] ($(Output.south)+(0,0)$) -- +(0,-0.5) -|  node[anchor=south, xshift = 6cm]{feedback}(input.south);
+	
+\end{tikzpicture}
+\end{document}

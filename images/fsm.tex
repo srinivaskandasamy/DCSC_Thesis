@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{pgf}
+
+
+% Defining environment
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % Cropping image to full size
+\PreviewEnvironment{tikzpicture} % Picture as pdf
+\setlength\PreviewBorder{15pt}%
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [red!50,fill=red!50] (15.4,-22.9) circle (3);
+\draw (15.4,-22.9) node {$s_{t-1}$};
+\draw [red!50,fill=red!50] (31.2,-22.9) circle (3);
+\draw (31.2,-22.9) node {$s_{t}$};
+\draw [red!50,fill=red!50] (48.3,-22.9) circle (3);
+\draw (48.3,-22.9) node {$s_{t+1}$};
+\draw [red!50,fill=red!50] (67.1,-22.9) circle (3);
+\draw (67.1,-22.9) node {$s_{t+2}$};
+\draw [gray,fill=gray] (7,-33.4) circle (3);
+\draw (7,-33.4) node {$u_{t-1}$};
+\draw [gray,fill=gray] (22.1,-33.4) circle (3);
+\draw (22.1,-33.4) node {$u_{t}$};
+\draw [gray,fill=gray] (39.1,-33.4) circle (3);
+\draw (39.1,-33.4) node {$u_{t+1}$};
+\draw [gray,fill=gray] (57.9,-33.4) circle (3);
+\draw (57.9,-33.4) node {$u_{t+2}$};
+\draw [gray,fill=gray] (15.4,-43.5) circle (3);
+\draw (15.4,-43.5) node {$z_{t-1}$};
+\draw [gray,fill=gray] (31.2,-43.5) circle (3);
+\draw (31.2,-43.5) node {$z_{t}$};
+\draw [gray,fill=gray] (48.6,-42.9) circle (3);
+\draw (48.6,-42.9) node {$z_{t+1}$};
+\draw [gray,fill=gray] (67.1,-42.2) circle (3);
+\draw (67.1,-42.2) node {$z_{t+2}$};
+\draw [black] (15.3,-53.6) circle (3);
+\draw (15.3,-53.6) node {$m_{1}$};
+\draw [black] (39.8,-53.9) circle (3);
+\draw (39.8,-53.9) node {$m_{2}$};
+\draw [black] (67.1,-53.9) circle (3);
+\draw (67.1,-53.9) node {$m_{3}$};
+\draw [black] (18.5,-22.9) -- (28.2,-22.9);
+\fill [black] (28.2,-22.9) -- (27.4,-22.4) -- (27.4,-23.4);
+\draw [black] (34.2,-22.9) -- (45.3,-22.9);
+\fill [black] (45.3,-22.9) -- (44.5,-22.4) -- (44.5,-23.4);
+\draw [black] (51.3,-22.9) -- (64.1,-22.9);
+\fill [black] (64.1,-22.9) -- (63.3,-22.4) -- (63.3,-23.4);
+\draw [black] (8.9,-30.9) -- (13.51,-25.23);
+\fill [black] (13.51,-25.23) -- (12.62,-25.53) -- (13.39,-26.16);
+\draw [black] (24.1,-31.1) -- (29.24,-25.17);
+\fill [black] (29.24,-25.17) -- (28.33,-25.45) -- (29.09,-26.1);
+\draw [black] (41.2,-31.2) -- (46.35,-25.18);
+\fill [black] (46.35,-25.18) -- (45.45,-25.46) -- (46.21,-26.11);
+\draw [black] (60.3,-31.4) -- (65.23,-25.24);
+\fill [black] (65.23,-25.24) -- (64.34,-25.55) -- (65.12,-26.18);
+\draw [black] (15.4,-25.9) -- (15.4,-40.5);
+\fill [black] (15.4,-40.5) -- (15.9,-39.7) -- (14.9,-39.7);
+\draw [black] (31.2,-25.8) -- (31.2,-40.5);
+\fill [black] (31.2,-40.5) -- (31.7,-39.7) -- (30.7,-39.7);
+\draw [black] (48.34,-25.9) -- (48.56,-39.9);
+\fill [black] (48.56,-39.9) -- (49.04,-39.09) -- (48.04,-39.11);
+\draw [black] (67.1,-25.9) -- (67.1,-39.2);
+\fill [black] (67.1,-39.2) -- (67.6,-38.4) -- (66.6,-38.4);
+\draw [black] (15.4,-50.5) -- (15.4,-46.5);
+\fill [black] (15.4,-46.5) -- (14.9,-47.3) -- (15.9,-47.3);
+\draw [black] (37.8,-51.6) -- (33.1,-45.83);
+\fill [black] (33.1,-45.83) -- (33.21,-46.76) -- (33.99,-46.13);
+\draw [black] (41.67,-51.56) -- (46.73,-45.24);
+\fill [black] (46.73,-45.24) -- (45.84,-45.55) -- (46.62,-46.18);
+\draw [black] (67.1,-50.8) -- (67.1,-45.2);
+\fill [black] (67.1,-45.2) -- (66.6,-46) -- (67.6,-46);
+\end{tikzpicture}
+\end{center}
+
+\end{document}
